@@ -1,0 +1,2463 @@
+{
+    "items": [
+        {
+            "id": 32180238,
+            "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/a781e691-92fe-40af-a64c-b81ae4a7a26f/width=1440/a781e691-92fe-40af-a64c-b81ae4a7a26f.jpeg",
+            "hash": "U9Dvi#yWE1Rh_2xtIUE0?^xHogInK6r?-Vt7",
+            "width": 1440,
+            "height": 1920,
+            "nsfwLevel": "None",
+            "nsfw": false,
+            "browsingLevel": 1,
+            "createdAt": "2024-10-01T01:22:14.526Z",
+            "postId": 7364871,
+            "stats": {
+                "cryCount": 7,
+                "laughCount": 37,
+                "likeCount": 191,
+                "dislikeCount": 0,
+                "heartCount": 54,
+                "commentCount": 0
+            },
+            "meta": {
+                "seed": 847595079009185,
+                "vaes": [
+                    "ae.sft"
+                ],
+                "comfy": "{\"prompt\": {\"306\": {\"class_type\": \"LoraLoader\", \"inputs\": {\"_base_model\": \"FLUX.1\", \"clip\": [\"387\", 0], \"lora_name\": \"EMS-515594-EMS.safetensors\", \"model\": [\"385\", 0], \"strength_clip\": 1.0, \"strength_model\": 1.0, \"tams_lora_name\": \"Emily Flux - V102\"}, \"_properties\": {\"Node name for S&R\": \"LoraLoader\"}}, \"307\": {\"class_type\": \"VAELoader\", \"inputs\": {\"vae_name\": \"ae.sft\"}, \"_properties\": {\"Node name for S&R\": \"VAELoader\"}}, \"313\": {\"class_type\": \"EmptyLatentImage\", \"inputs\": {\"batch_size\": 1, \"height\": 1280, \"width\": 960}, \"_properties\": {\"Node name for S&R\": \"EmptyLatentImage\"}}, \"314\": {\"class_type\": \"CLIPTextEncode\", \"inputs\": {\"clip\": [\"306\", 1], \"text\": \"[12]Realistic photograph, A 20-year-old elegant and sophisticated Japanese woman is wearing a luxury silk blouse and high-waisted pants. The pastel-toned blouse features metallic details, and the pants fall neatly just above the ankles. She pairs black stiletto heels with a designer mini bag, accessorized with diamond earrings of chanel logo and a slim gold watch. Her look is completed with natural dark long hair, exuding refined city style. full body, looking at viewer, upper body, leg open, standing, rainy playgroun, sittting,\"}, \"_properties\": {\"Node name for S&R\": \"CLIPTextEncode\"}}, \"315\": {\"class_type\": \"CLIPTextEncode\", \"inputs\": {\"clip\": [\"306\", 1], \"text\": \"worst quality,low quality,worst detail,low detail,source_furry, source_pony, source_cartoon,2d,bad anatomy, bad hands, text, error, missing fingers, (extra digit:1.4), fewer digits, cropped, bad artist, outlines, jpeg artifacts, signature, watermark, username, blurry, 3d,\"}, \"_properties\": {\"Node name for S&R\": \"CLIPTextEncode\"}}, \"316\": {\"class_type\": \"KSampler\", \"inputs\": {\"cfg\": 1.0, \"denoise\": 1.0, \"latent_image\": [\"313\", 0], \"model\": [\"306\", 0], \"negative\": [\"315\", 0], \"positive\": [\"389\", 0], \"sampler_name\": \"euler\", \"scheduler\": \"simple\", \"seed\": 847595079009185, \"steps\": 30}, \"_properties\": {\"Node name for S&R\": \"KSampler\"}}, \"331\": {\"class_type\": \"CLIPTextEncode\", \"inputs\": {\"clip\": [\"306\", 1], \"text\": \"[11]Realistic photograph, Photograph of a young adult Korean girl an baseball stadium. Posing, make sexy moves. The subject should be depicted with long, dark hair tied back in a Twin ponytails. The scene should take place during a sunny day with a warm and clear atmosphere. Incorporate sun flares or lens flares to add depth and interest to the image, cheerleader outfit, shorts, boots, cleavage, belt, long sleeves, dancing, upper-body, close-up, The text on the clothes says (\\\"FLUX LOVE\\\"), looking to viewer, large breasts, \"}, \"_properties\": {\"Node name for S&R\": \"CLIPTextEncode\"}}, \"332\": {\"class_type\": \"CLIPTextEncode\", \"inputs\": {\"clip\": [\"306\", 1], \"text\": \"worst quality,low quality,worst detail,low detail,source_furry, source_pony, source_cartoon,2d,bad anatomy, bad hands, text, error, missing fingers, (extra digit:1.4), fewer digits, cropped, bad artist, outlines, jpeg artifacts, signature, watermark, username, blurry, 3d,\"}, \"_properties\": {\"Node name for S&R\": \"CLIPTextEncode\"}}, \"333\": {\"class_type\": \"KSampler\", \"inputs\": {\"cfg\": 1.0, \"denoise\": 1.0, \"latent_image\": [\"313\", 0], \"model\": [\"306\", 0], \"negative\": [\"332\", 0], \"positive\": [\"388\", 0], \"sampler_name\": \"euler\", \"scheduler\": \"simple\", \"seed\": 1014068190480017, \"steps\": 20}, \"_properties\": {\"Node name for S&R\": \"KSampler\"}}, \"337\": {\"class_type\": \"VAEDecode\", \"inputs\": {\"samples\": [\"333\", 0], \"vae\": [\"307\", 0]}, \"_properties\": {\"Node name for S&R\": \"VAEDecode\"}}, \"339\": {\"class_type\": \"CLIPTextEncode\", \"inputs\": {\"clip\": [\"306\", 1], \"text\": \"[13]Realistic photograph, Photograph of a young adult Korean girl an baseball stadium. The subject should be depicted with long, dark hair tied back in a Twin ponytails. The scene should take place during a sunny day with a warm and clear atmosphere. Incorporate sun flares or lens flares to add depth and interest to the image, Loose white baseball uniform, cleavage, upper-body, close-up, The text on the clothes says (\\\\\\\"FLUX LOVE\\\\\\\"), looking to viewer, large breasts, \"}, \"_properties\": {\"Node name for S&R\": \"CLIPTextEncode\"}}, \"340\": {\"class_type\": \"CLIPTextEncode\", \"inputs\": {\"clip\": [\"306\", 1], \"text\": \"[14]Realistic photograph, close-up, upper body, face focus, long hair, dynamic angle, dynamic pose, A stunning real large breasts woman with long, flowing dark hair, her piercing gaze directly addressing the viewer. High Fashion, A highly detailed, realistic digital photo of a 28 years old woman with a pale complexion, emphasizing her enigmatic and mystical aura, high resolution, rich textures, and contemplative mood. Her eyes are a deep piercing, dynamic, dramatic, haute couture, elegant, ornate clothing, dark straight hair with a few loose strands framing her face, against a light gradient background, necktie, skirt, ponytail, school uniform, shirt, looking at viewer, outdoors, white shirt, blue skirt, tree, cosplay, belt, The scene should take place during a sunny day with a warm and clear atmosphere. Incorporate sun flares or lens flares to add depth and interest to the image. \"}, \"_properties\": {\"Node name for S&R\": \"CLIPTextEncode\"}}, \"341\": {\"class_type\": \"CLIPTextEncode\", \"inputs\": {\"clip\": [\"306\", 1], \"text\": \"[15]Realistic photograph, A 20-year-old elegant and sophisticated city Chinese woman is wearing a luxury silk cyan blouse and high-waisted pants. The pastel-toned blouse features metallic details, and the pants fall neatly just above the ankles. She pairs black stiletto heels with a designer mini bag, accessorized with diamond earrings of chanel logo and a slim gold watch. Her look is completed with natural dark long hair, exuding refined city style. full body, looking at viewer, upper body, leg open, standing, rainy playgroun, sittting, large breasts, The subject should be depicted with long, dark hair tied back in a Twin ponytails. The scene should take place during a sunny day with a warm and clear atmosphere. Incorporate sun flares or lens flares to add depth and interest to the image, \"}, \"_properties\": {\"Node name for S&R\": \"CLIPTextEncode\"}}, \"342\": {\"class_type\": \"CLIPTextEncode\", \"inputs\": {\"clip\": [\"306\", 1], \"text\": \"worst quality,low quality,worst detail,low detail,source_furry, source_pony, source_cartoon,2d,bad anatomy, bad hands, text, error, missing fingers, (extra digit:1.4), fewer digits, cropped, bad artist, outlines, jpeg artifacts, signature, watermark, username, blurry, 3d,\"}, \"_properties\": {\"Node name for S&R\": \"CLIPTextEncode\"}}, \"343\": {\"class_type\": \"CLIPTextEncode\", \"inputs\": {\"clip\": [\"306\", 1], \"text\": \"worst quality,low quality,worst detail,low detail,source_furry, source_pony, source_cartoon,2d,bad anatomy, bad hands, text, error, missing fingers, (extra digit:1.4), fewer digits, cropped, bad artist, outlines, jpeg artifacts, signature, watermark, username, blurry, 3d,\"}, \"_properties\": {\"Node name for S&R\": \"CLIPTextEncode\"}}, \"344\": {\"class_type\": \"CLIPTextEncode\", \"inputs\": {\"clip\": [\"306\", 1], \"text\": \"worst quality,low quality,worst detail,low detail,source_furry, source_pony, source_cartoon,2d,bad anatomy, bad hands, text, error, missing fingers, (extra digit:1.4), fewer digits, cropped, bad artist, outlines, jpeg artifacts, signature, watermark, username, blurry, 3d,\"}, \"_properties\": {\"Node name for S&R\": \"CLIPTextEncode\"}}, \"345\": {\"class_type\": \"KSampler\", \"inputs\": {\"cfg\": 1.0, \"denoise\": 1.0, \"latent_image\": [\"313\", 0], \"model\": [\"306\", 0], \"negative\": [\"342\", 0], \"positive\": [\"390\", 0], \"sampler_name\": \"euler\", \"scheduler\": \"simple\", \"seed\": 1021059594722062, \"steps\": 30}, \"_properties\": {\"Node name for S&R\": \"KSampler\"}}, \"346\": {\"class_type\": \"KSampler\", \"inputs\": {\"cfg\": 1.0, \"denoise\": 1.0, \"latent_image\": [\"313\", 0], \"model\": [\"306\", 0], \"negative\": [\"343\", 0], \"positive\": [\"391\", 0], \"sampler_name\": \"euler\", \"scheduler\": \"simple\", \"seed\": 908788605439031, \"steps\": 30}, \"_properties\": {\"Node name for S&R\": \"KSampler\"}}, \"347\": {\"class_type\": \"KSampler\", \"inputs\": {\"cfg\": 1.0, \"denoise\": 1.0, \"latent_image\": [\"313\", 0], \"model\": [\"306\", 0], \"negative\": [\"344\", 0], \"positive\": [\"392\", 0], \"sampler_name\": \"euler\", \"scheduler\": \"simple\", \"seed\": 136509660075928, \"steps\": 30}, \"_properties\": {\"Node name for S&R\": \"KSampler\"}}, \"348\": {\"class_type\": \"VAEDecode\", \"inputs\": {\"samples\": [\"345\", 0], \"vae\": [\"307\", 0]}, \"_properties\": {\"Node name for S&R\": \"VAEDecode\"}}, \"349\": {\"class_type\": \"VAEDecode\", \"inputs\": {\"samples\": [\"346\", 0], \"vae\": [\"307\", 0]}, \"_properties\": {\"Node name for S&R\": \"VAEDecode\"}}, \"350\": {\"class_type\": \"VAEDecode\", \"inputs\": {\"samples\": [\"347\", 0], \"vae\": [\"307\", 0]}, \"_properties\": {\"Node name for S&R\": \"VAEDecode\"}}, \"355\": {\"class_type\": \"CLIPTextEncode\", \"inputs\": {\"clip\": [\"306\", 1], \"text\": \"[16](ultra realistic,32k, masterpiece:1.2),(high detailed skin:1.1),(high quality:1.1), (masterpiece, best quality),Best quality, A 20-year-old elegant and sophisticated city Chinese woman is wearing a luxury silk blouse and high-waisted pants. beauy_ks01. The pastel-toned blouse features metallic details, and the pants fall neatly just above the ankles. She pairs black stiletto heels with a designer mini bag, accessorized with diamond earrings of chanel logo and a slim gold watch. Her look is completed with natural dark long hair, exuding refined city style. face close-up, looking at viewer, upper body, dystopic, leg open, standing, rainy playground, sittting, \"}, \"_properties\": {\"Node name for S&R\": \"CLIPTextEncode\"}}, \"356\": {\"class_type\": \"CLIPTextEncode\", \"inputs\": {\"clip\": [\"306\", 1], \"text\": \"worst quality,low quality,worst detail,low detail,source_furry, source_pony, source_cartoon,2d,bad anatomy, bad hands, text, error, missing fingers, (extra digit:1.4), fewer digits, cropped, bad artist, outlines, jpeg artifacts, signature, watermark, username, blurry, 3d,\"}, \"_properties\": {\"Node name for S&R\": \"CLIPTextEncode\"}}, \"357\": {\"class_type\": \"KSampler\", \"inputs\": {\"cfg\": 1.0, \"denoise\": 1.0, \"latent_image\": [\"313\", 0], \"model\": [\"306\", 0], \"negative\": [\"356\", 0], \"positive\": [\"393\", 0], \"sampler_name\": \"euler\", \"scheduler\": \"simple\", \"seed\": 132043778125829, \"steps\": 30}, \"_properties\": {\"Node name for S&R\": \"KSampler\"}}, \"358\": {\"class_type\": \"VAEDecode\", \"inputs\": {\"samples\": [\"357\", 0], \"vae\": [\"307\", 0]}, \"_properties\": {\"Node name for S&R\": \"VAEDecode\"}}, \"360\": {\"class_type\": \"CLIPTextEncode\", \"inputs\": {\"clip\": [\"306\", 1], \"text\": \"[17]Realistic photograph, \\\"A high-fashion magazine cover featuring a close-up, upper-body shot of a beautiful Japanese female model with an enhanced bust size, confidently posing with elegance. school uniform, blue skirt, cosplay, pointing, blurry background. Her sharp yet graceful facial features are highlighted, and she wears a stylish, modern outfit that accentuates her figure while maintaining a sophisticated and polished look. The background is a neutral gray with professional, magazine-quality lighting that enhances her photorealistic skin texture. Across the cover, bold and stylish magazine text is displayed, including the title in elegant font: **\\\\\\\"Beauty-AI\\\\\\\"** at the top. The overall composition combines high-end fashion photography with captivating headlines that frame the model's pose, drawing attention to her beauty and presence. The cover reflects sophistication, confidence, and modern fashion, with the Flux Beautify aesthetic enhances the visual impact.\\\" \"}, \"_properties\": {\"Node name for S&R\": \"CLIPTextEncode\"}}, \"361\": {\"class_type\": \"CLIPTextEncode\", \"inputs\": {\"clip\": [\"306\", 1], \"text\": \"worst quality,low quality,worst detail,low detail,source_furry, source_pony, source_cartoon,2d,bad anatomy, bad hands, text, error, missing fingers, (extra digit:1.4), fewer digits, cropped, bad artist, outlines, jpeg artifacts, signature, watermark, username, blurry, 3d,\"}, \"_properties\": {\"Node name for S&R\": \"CLIPTextEncode\"}}, \"362\": {\"class_type\": \"KSampler\", \"inputs\": {\"cfg\": 1.0, \"denoise\": 1.0, \"latent_image\": [\"313\", 0], \"model\": [\"306\", 0], \"negative\": [\"361\", 0], \"positive\": [\"394\", 0], \"sampler_name\": \"euler\", \"scheduler\": \"simple\", \"seed\": 595742770316979, \"steps\": 30}, \"_properties\": {\"Node name for S&R\": \"KSampler\"}}, \"363\": {\"class_type\": \"VAEDecode\", \"inputs\": {\"samples\": [\"362\", 0], \"vae\": [\"307\", 0]}, \"_properties\": {\"Node name for S&R\": \"VAEDecode\"}}, \"365\": {\"class_type\": \"CLIPTextEncode\", \"inputs\": {\"clip\": [\"306\", 1], \"text\": \"[18]Realistic photograph, A high-fashion magazine cover featuring a close-up, upper-body shot of a beautiful Japanese female model with an enhanced bust size, confidently posing with elegance. school uniform, blue skirt, blurry background. Her sharp yet graceful facial features are highlighted, and she wears a stylish, modern outfit that accentuates her figure while maintaining a sophisticated and polished look. The background is a neutral gray with professional, magazine-quality lighting that enhances her photorealistic skin texture. The overall composition combines high-end fashion photography with captivating frame the model's pose, drawing attention to her beauty and presence. The cover reflects sophistication, confidence, and modern fashion, with the aesthetic enhances the visual impact. light gray background, simple background, \"}, \"_properties\": {\"Node name for S&R\": \"CLIPTextEncode\"}}, \"366\": {\"class_type\": \"CLIPTextEncode\", \"inputs\": {\"clip\": [\"306\", 1], \"text\": \"worst quality,low quality,worst detail,low detail,source_furry, source_pony, source_cartoon,2d,bad anatomy, bad hands, text, error, missing fingers, (extra digit:1.4), fewer digits, cropped, bad artist, outlines, jpeg artifacts, signature, watermark, username, blurry, 3d,\"}, \"_properties\": {\"Node name for S&R\": \"CLIPTextEncode\"}}, \"367\": {\"class_type\": \"KSampler\", \"inputs\": {\"cfg\": 1.0, \"denoise\": 1.0, \"latent_image\": [\"313\", 0], \"model\": [\"306\", 0], \"negative\": [\"366\", 0], \"positive\": [\"395\", 0], \"sampler_name\": \"euler\", \"scheduler\": \"simple\", \"seed\": 115779367932520, \"steps\": 30}, \"_properties\": {\"Node name for S&R\": \"KSampler\"}}, \"368\": {\"class_type\": \"VAEDecode\", \"inputs\": {\"samples\": [\"367\", 0], \"vae\": [\"307\", 0]}, \"_properties\": {\"Node name for S&R\": \"VAEDecode\"}}, \"370\": {\"class_type\": \"CLIPTextEncode\", \"inputs\": {\"clip\": [\"306\", 1], \"text\": \"[19]Realistic photograph, A stunning real huge breasts Korean woman with long, flowing dark hair, her piercing gaze directly addressing the viewer. A wet kawai girl, sexy,  sitting in water , blushing , horny, large boobs, nipples , cleavage , in hotspring, naked, arms raised back, portrait, big areola, \"}, \"_properties\": {\"Node name for S&R\": \"CLIPTextEncode\"}}, \"371\": {\"class_type\": \"CLIPTextEncode\", \"inputs\": {\"clip\": [\"306\", 1], \"text\": \"worst quality,low quality,worst detail,low detail,source_furry, source_pony, source_cartoon,2d,bad anatomy, bad hands, text, error, missing fingers, (extra digit:1.4), fewer digits, cropped, bad artist, outlines, jpeg artifacts, signature, watermark, username, blurry, 3d,\"}, \"_properties\": {\"Node name for S&R\": \"CLIPTextEncode\"}}, \"372\": {\"class_type\": \"KSampler\", \"inputs\": {\"cfg\": 1.0, \"denoise\": 1.0, \"latent_image\": [\"313\", 0], \"model\": [\"306\", 0], \"negative\": [\"371\", 0], \"positive\": [\"396\", 0], \"sampler_name\": \"euler\", \"scheduler\": \"simple\", \"seed\": 474956940365019, \"steps\": 30}, \"_properties\": {\"Node name for S&R\": \"KSampler\"}}, \"373\": {\"class_type\": \"VAEDecode\", \"inputs\": {\"samples\": [\"372\", 0], \"vae\": [\"307\", 0]}, \"_properties\": {\"Node name for S&R\": \"VAEDecode\"}}, \"375\": {\"class_type\": \"CLIPTextEncode\", \"inputs\": {\"clip\": [\"306\", 1], \"text\": \"[20]Realistic photograph, A stunning real huge breasts Korean woman with long, flowing dark hair, her piercing gaze directly addressing the viewer. A wet kawai girl, sexy,  navel, pussy, big areola, pink areola, sexy thigh, standing in water, blushing , horny, large boobs, nipples , cleavage , in hotspring, naked, arms raised back, portrait, \"}, \"_properties\": {\"Node name for S&R\": \"CLIPTextEncode\"}}, \"376\": {\"class_type\": \"CLIPTextEncode\", \"inputs\": {\"clip\": [\"306\", 1], \"text\": \"worst quality,low quality,worst detail,low detail,source_furry, source_pony, source_cartoon,2d,bad anatomy, bad hands, text, error, missing fingers, (extra digit:1.4), fewer digits, cropped, bad artist, outlines, jpeg artifacts, signature, watermark, username, blurry, 3d,\"}, \"_properties\": {\"Node name for S&R\": \"CLIPTextEncode\"}}, \"377\": {\"class_type\": \"KSampler\", \"inputs\": {\"cfg\": 1.0, \"denoise\": 1.0, \"latent_image\": [\"313\", 0], \"model\": [\"306\", 0], \"negative\": [\"376\", 0], \"positive\": [\"397\", 0], \"sampler_name\": \"euler\", \"scheduler\": \"simple\", \"seed\": 777290129115357, \"steps\": 30}, \"_properties\": {\"Node name for S&R\": \"KSampler\"}}, \"378\": {\"class_type\": \"VAEDecode\", \"inputs\": {\"samples\": [\"377\", 0], \"vae\": [\"307\", 0]}, \"_properties\": {\"Node name for S&R\": \"VAEDecode\"}}, \"385\": {\"class_type\": \"UNETLoader\", \"inputs\": {\"unet_name\": \"flux1-dev.sft\", \"weight_dtype\": \"default\"}, \"_properties\": {\"Node name for S&R\": \"UNETLoader\"}}, \"387\": {\"class_type\": \"DualCLIPLoader\", \"inputs\": {\"clip_name1\": \"t5xxl_fp8_e4m3fn.safetensors\", \"clip_name2\": \"clip_l_sdxl_base.safetensors\", \"type\": \"flux\"}, \"_properties\": {\"Node name for S&R\": \"DualCLIPLoader\"}}, \"388\": {\"class_type\": \"FluxGuidance\", \"inputs\": {\"conditioning\": [\"331\", 0], \"guidance\": 3.5}, \"_properties\": {\"Node name for S&R\": \"FluxGuidance\"}}, \"389\": {\"class_type\": \"FluxGuidance\", \"inputs\": {\"conditioning\": [\"314\", 0], \"guidance\": 3.5}, \"_properties\": {\"Node name for S&R\": \"FluxGuidance\"}}, \"390\": {\"class_type\": \"FluxGuidance\", \"inputs\": {\"conditioning\": [\"339\", 0], \"guidance\": 3.5}, \"_properties\": {\"Node name for S&R\": \"FluxGuidance\"}}, \"391\": {\"class_type\": \"FluxGuidance\", \"inputs\": {\"conditioning\": [\"340\", 0], \"guidance\": 3.5}, \"_properties\": {\"Node name for S&R\": \"FluxGuidance\"}}, \"392\": {\"class_type\": \"FluxGuidance\", \"inputs\": {\"conditioning\": [\"341\", 0], \"guidance\": 3.5}, \"_properties\": {\"Node name for S&R\": \"FluxGuidance\"}}, \"393\": {\"class_type\": \"FluxGuidance\", \"inputs\": {\"conditioning\": [\"355\", 0], \"guidance\": 3.5}, \"_properties\": {\"Node name for S&R\": \"FluxGuidance\"}}, \"394\": {\"class_type\": \"FluxGuidance\", \"inputs\": {\"conditioning\": [\"360\", 0], \"guidance\": 3.5}, \"_properties\": {\"Node name for S&R\": \"FluxGuidance\"}}, \"395\": {\"class_type\": \"FluxGuidance\", \"inputs\": {\"conditioning\": [\"365\", 0], \"guidance\": 3.5}, \"_properties\": {\"Node name for S&R\": \"FluxGuidance\"}}, \"396\": {\"class_type\": \"FluxGuidance\", \"inputs\": {\"conditioning\": [\"370\", 0], \"guidance\": 3.5}, \"_properties\": {\"Node name for S&R\": \"FluxGuidance\"}}, \"397\": {\"class_type\": \"FluxGuidance\", \"inputs\": {\"conditioning\": [\"375\", 0], \"guidance\": 3.5}, \"_properties\": {\"Node name for S&R\": \"FluxGuidance\"}}, \"400\": {\"class_type\": \"ImageScale\", \"inputs\": {\"crop\": \"disabled\", \"height\": 1920, \"image\": [\"337\", 0], \"upscale_method\": \"lanczos\", \"width\": 1440}, \"_properties\": {\"Node name for S&R\": \"ImageScale\"}}, \"402\": {\"class_type\": \"ImageScale\", \"inputs\": {\"crop\": \"disabled\", \"height\": 1920, \"image\": [\"8\", 0], \"upscale_method\": \"lanczos\", \"width\": 1440}, \"_properties\": {\"Node name for S&R\": \"ImageScale\"}}, \"404\": {\"class_type\": \"ImageScale\", \"inputs\": {\"crop\": \"disabled\", \"height\": 1920, \"image\": [\"348\", 0], \"upscale_method\": \"lanczos\", \"width\": 1440}, \"_properties\": {\"Node name for S&R\": \"ImageScale\"}}, \"406\": {\"class_type\": \"ImageScale\", \"inputs\": {\"crop\": \"disabled\", \"height\": 1920, \"image\": [\"349\", 0], \"upscale_method\": \"lanczos\", \"width\": 1440}, \"_properties\": {\"Node name for S&R\": \"ImageScale\"}}, \"408\": {\"class_type\": \"ImageScale\", \"inputs\": {\"crop\": \"disabled\", \"height\": 1920, \"image\": [\"350\", 0], \"upscale_method\": \"lanczos\", \"width\": 1440}, \"_properties\": {\"Node name for S&R\": \"ImageScale\"}}, \"410\": {\"class_type\": \"ImageScale\", \"inputs\": {\"crop\": \"disabled\", \"height\": 1920, \"image\": [\"358\", 0], \"upscale_method\": \"lanczos\", \"width\": 1440}, \"_properties\": {\"Node name for S&R\": \"ImageScale\"}}, \"412\": {\"class_type\": \"ImageScale\", \"inputs\": {\"crop\": \"disabled\", \"height\": 1920, \"image\": [\"363\", 0], \"upscale_method\": \"lanczos\", \"width\": 1440}, \"_properties\": {\"Node name for S&R\": \"ImageScale\"}}, \"414\": {\"class_type\": \"ImageScale\", \"inputs\": {\"crop\": \"disabled\", \"height\": 1920, \"image\": [\"368\", 0], \"upscale_method\": \"lanczos\", \"width\": 1440}, \"_properties\": {\"Node name for S&R\": \"ImageScale\"}}, \"416\": {\"class_type\": \"ImageScale\", \"inputs\": {\"crop\": \"disabled\", \"height\": 1920, \"image\": [\"373\", 0], \"upscale_method\": \"lanczos\", \"width\": 1440}, \"_properties\": {\"Node name for S&R\": \"ImageScale\"}}, \"418\": {\"class_type\": \"ImageScale\", \"inputs\": {\"crop\": \"disabled\", \"height\": 1920, \"image\": [\"378\", 0], \"upscale_method\": \"lanczos\", \"width\": 1440}, \"_properties\": {\"Node name for S&R\": \"ImageScale\"}}, \"420\": {\"class_type\": \"SaveImage\", \"inputs\": {\"filename_prefix\": \"TensorArt\", \"images\": [\"400\", 0]}, \"_properties\": {}}, \"421\": {\"class_type\": \"SaveImage\", \"inputs\": {\"filename_prefix\": \"TensorArt\", \"images\": [\"402\", 0]}, \"_properties\": {}}, \"422\": {\"class_type\": \"SaveImage\", \"inputs\": {\"filename_prefix\": \"TensorArt\", \"images\": [\"404\", 0]}, \"_properties\": {}}, \"423\": {\"class_type\": \"SaveImage\", \"inputs\": {\"filename_prefix\": \"TensorArt\", \"images\": [\"406\", 0]}, \"_properties\": {}}, \"424\": {\"class_type\": \"SaveImage\", \"inputs\": {\"filename_prefix\": \"TensorArt\", \"images\": [\"408\", 0]}, \"_properties\": {}}, \"425\": {\"class_type\": \"SaveImage\", \"inputs\": {\"filename_prefix\": \"TensorArt\", \"images\": [\"410\", 0]}, \"_properties\": {}}, \"426\": {\"class_type\": \"SaveImage\", \"inputs\": {\"filename_prefix\": \"TensorArt\", \"images\": [\"412\", 0]}, \"_properties\": {}}, \"427\": {\"class_type\": \"SaveImage\", \"inputs\": {\"filename_prefix\": \"TensorArt\", \"images\": [\"414\", 0]}, \"_properties\": {}}, \"428\": {\"class_type\": \"SaveImage\", \"inputs\": {\"filename_prefix\": \"TensorArt\", \"images\": [\"416\", 0]}, \"_properties\": {}}, \"429\": {\"class_type\": \"SaveImage\", \"inputs\": {\"filename_prefix\": \"TensorArt\", \"images\": [\"418\", 0]}, \"_properties\": {}}, \"8\": {\"class_type\": \"VAEDecode\", \"inputs\": {\"samples\": [\"316\", 0], \"vae\": [\"307\", 0]}, \"_properties\": {\"Node name for S&R\": \"VAEDecode\"}}}, \"workflow\": undefined}",
+                "steps": 30,
+                "width": 960,
+                "height": 1280,
+                "models": [],
+                "prompt": "[12]Realistic photograph, A 20-year-old elegant and sophisticated Japanese woman is wearing a luxury silk blouse and high-waisted pants. The pastel-toned blouse features metallic details, and the pants fall neatly just above the ankles. She pairs black stiletto heels with a designer mini bag, accessorized with diamond earrings of chanel logo and a slim gold watch. Her look is completed with natural dark long hair, exuding refined city style. full body, looking at viewer, upper body, leg open, standing, rainy playgroun, sittting,",
+                "denoise": 1,
+                "sampler": "Euler",
+                "cfgScale": 1,
+                "modelIds": [],
+                "scheduler": "simple",
+                "upscalers": [],
+                "versionIds": [],
+                "controlNets": [],
+                "negativePrompt": "worst quality,low quality,worst detail,low detail,source_furry, source_pony, source_cartoon,2d,bad anatomy, bad hands, text, error, missing fingers, (extra digit:1.4), fewer digits, cropped, bad artist, outlines, jpeg artifacts, signature, watermark, username, blurry, 3d,",
+                "additionalResources": [
+                    {
+                        "name": "EMS-515594-EMS.safetensors",
+                        "type": "lora",
+                        "strength": 1,
+                        "strengthClip": 1
+                    }
+                ]
+            },
+            "username": "SinsinWang",
+            "baseModel": null
+        },
+        {
+            "id": 30562487,
+            "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/03597388-c5d6-404a-879f-4c5a43dfded2/width=1024/03597388-c5d6-404a-879f-4c5a43dfded2.jpeg",
+            "hash": "UWIE;L-n~q-;nN^+t7t6bc%2WCRkIUIVRPRj",
+            "width": 1024,
+            "height": 1024,
+            "nsfwLevel": "None",
+            "nsfw": false,
+            "browsingLevel": 1,
+            "createdAt": "2024-09-21T10:19:08.404Z",
+            "postId": 6837674,
+            "stats": {
+                "cryCount": 2,
+                "laughCount": 15,
+                "likeCount": 200,
+                "dislikeCount": 0,
+                "heartCount": 72,
+                "commentCount": 1
+            },
+            "meta": {
+                "Size": "1024x1024",
+                "seed": 1613354395,
+                "steps": 30,
+                "prompt": "score_9, score_8_up, score_7_up, score_6_up, score_5_up, score_4_up, 1girl, (score_9, score_8_up:1.1), score_7_up,  black hair, medium hair, Curtain Hair, hair intakes, parted bangs, narrow eyes, teal eyes, curvy, large breasts, nice round ass, ((white shirt, fur cloak, leather armor, shoulder plate, vambrace, gaunlet, greaves, metal gloves, pants, belt)), rapier, holding rapier, holding weapon, fantasy, medieval, snow, winter, midnight, (extremely detailed face and eyes), looking at viewer, seductive smile, fighting stance, soft lighting, warm lighting, front view, from above,",
+                "sampler": "Euler a",
+                "cfgScale": 7,
+                "clipSkip": 2,
+                "resources": [],
+                "Created Date": "2024-09-21T0217:32.4203586Z",
+                "negativePrompt": "score_6, score_5, score_4, source_pony, (worst quality:1.2), (low quality:1.2), (normal quality:1.2), lowres, bad anatomy, bad hands, signature, watermarks, ugly, imperfect eyes, skewed eyes, unnatural face, unnatural body, error, extra limb, missing limbs, painting by bad-artist, 3d art, nipple ring, looking at the viewer, extra hands, extra fingers,  tan lines, golden armor,",
+                "civitaiResources": [
+                    {
+                        "type": "checkpoint",
+                        "modelVersionId": 706363,
+                        "modelVersionName": "v5.2"
+                    },
+                    {
+                        "type": "lora",
+                        "weight": 1.5,
+                        "modelVersionId": 135867,
+                        "modelVersionName": "v1.0"
+                    },
+                    {
+                        "type": "lora",
+                        "weight": 0.7,
+                        "modelVersionId": 382152,
+                        "modelVersionName": "ExpressiveH"
+                    },
+                    {
+                        "type": "lora",
+                        "weight": 0.8,
+                        "modelVersionId": 713282,
+                        "modelVersionName": "nagainosfw"
+                    },
+                    {
+                        "type": "lora",
+                        "weight": 0.8,
+                        "modelVersionId": 647356,
+                        "modelVersionName": "V1"
+                    },
+                    {
+                        "type": "lora",
+                        "weight": 1,
+                        "modelVersionId": 427899,
+                        "modelVersionName": "v1.0"
+                    },
+                    {
+                        "type": "embed",
+                        "modelVersionId": 250708,
+                        "modelVersionName": "safe_pos"
+                    },
+                    {
+                        "type": "embed",
+                        "modelVersionId": 250712,
+                        "modelVersionName": "safe_neg"
+                    }
+                ]
+            },
+            "username": "AltreZ",
+            "baseModel": "Pony"
+        },
+        {
+            "id": 29947892,
+            "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/3af72a28-9dfa-456f-a395-83a8b074cfe9/width=832/3af72a28-9dfa-456f-a395-83a8b074cfe9.jpeg",
+            "hash": "UMBA:}o2E~Wp|^WVAWoK,rbHJRo1NuW;Sgn*",
+            "width": 832,
+            "height": 1216,
+            "nsfwLevel": "None",
+            "nsfw": false,
+            "browsingLevel": 1,
+            "createdAt": "2024-09-17T21:09:28.975Z",
+            "postId": 6701625,
+            "stats": {
+                "cryCount": 7,
+                "laughCount": 20,
+                "likeCount": 206,
+                "dislikeCount": 0,
+                "heartCount": 56,
+                "commentCount": 2
+            },
+            "meta": {
+                "Size": "832x1216",
+                "seed": 3561271886,
+                "extra": {
+                    "remixOfId": 29877406
+                },
+                "steps": 25,
+                "prompt": "detailed renaissance oil painting, masterpiece, FredFraiStyle, chiascuro, silhoutetted, directional lighting, masterpiece, perfect composition, perfect hands, cowboy shot,\nA darkly illuminated elderly paladin templar stands shrouded in a torn, full armor plates. His complete obscured face reveals glowing red eyes, exuding a supernatural presence. In his right hand, he grips a war hammer with a glowing shinning, pulsating with eerie light. The hammer is bronze, adorned with intricate swirling patterns that fade into the shadowy background. Behind him, a large, glowing red orb or sun dominates, casting dramatic, otherworldly light over the dark, shadowy scene, <lora:aidmaMJ6.1:0.8>",
+                "sampler": "Undefined",
+                "cfgScale": 3.5,
+                "clipSkip": 2,
+                "resources": [
+                    {
+                        "name": "aidmaMJ6.1",
+                        "type": "lora",
+                        "weight": 0.8
+                    }
+                ],
+                "Created Date": "2024-09-17T2104:31.7045803Z",
+                "civitaiResources": [
+                    {
+                        "type": "checkpoint",
+                        "modelVersionId": 691639,
+                        "modelVersionName": "Dev"
+                    },
+                    {
+                        "type": "lora",
+                        "weight": 1,
+                        "modelVersionId": 759600,
+                        "modelVersionName": "FredFraiche!"
+                    },
+                    {
+                        "type": "lora",
+                        "weight": 1,
+                        "modelVersionId": 738658,
+                        "modelVersionName": "v1.0"
+                    }
+                ]
+            },
+            "username": "Leuroy",
+            "baseModel": "Flux.1 D"
+        },
+        {
+            "id": 28959331,
+            "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/e2814f52-b00f-49ca-8e2b-abb498985e30/width=1160/e2814f52-b00f-49ca-8e2b-abb498985e30.jpeg",
+            "hash": "UxJ9MTtl?^t7_NR*RPaxtRM{M{kCt7f+WVof",
+            "width": 1160,
+            "height": 1696,
+            "nsfwLevel": "Soft",
+            "nsfw": true,
+            "browsingLevel": 2,
+            "createdAt": "2024-09-12T01:03:55.001Z",
+            "postId": 6479720,
+            "stats": {
+                "cryCount": 18,
+                "laughCount": 35,
+                "likeCount": 182,
+                "dislikeCount": 0,
+                "heartCount": 54,
+                "commentCount": 0
+            },
+            "meta": {
+                "seed": 6482,
+                "vaes": [
+                    "FLUX1\\ae.sft"
+                ],
+                "comfy": "{\"prompt\": {\"8\": {\"inputs\": {\"samples\": [\"13\", 0], \"vae\": [\"10\", 0]}, \"class_type\": \"VAEDecode\"}, \"10\": {\"inputs\": {\"vae_name\": \"FLUX1\\\\ae.sft\"}, \"class_type\": \"VAELoader\"}, \"11\": {\"inputs\": {\"clip_name1\": \"t5\\\\google_t5-v1_1-xxl_encoderonly-fp8_e4m3fn.safetensors\", \"clip_name2\": \"t5\\\\clip_l.safetensors\", \"type\": \"flux\"}, \"class_type\": \"DualCLIPLoader\"}, \"12\": {\"inputs\": {\"unet_name\": \"FLUX1\\\\flux1-dev-fp8.safetensors\", \"weight_dtype\": \"fp8_e4m3fn\"}, \"class_type\": \"UNETLoader\"}, \"13\": {\"inputs\": {\"noise\": [\"25\", 0], \"guider\": [\"22\", 0], \"sampler\": [\"16\", 0], \"sigmas\": [\"17\", 0], \"latent_image\": [\"27\", 0]}, \"class_type\": \"SamplerCustomAdvanced\"}, \"16\": {\"inputs\": {\"sampler_name\": \"euler\"}, \"class_type\": \"KSamplerSelect\"}, \"17\": {\"inputs\": {\"scheduler\": \"sgm_uniform\", \"steps\": 30, \"denoise\": 1.0, \"model\": [\"30\", 0]}, \"class_type\": \"BasicScheduler\"}, \"22\": {\"inputs\": {\"model\": [\"30\", 0], \"conditioning\": [\"26\", 0]}, \"class_type\": \"BasicGuider\"}, \"25\": {\"inputs\": {\"noise_seed\": 6482}, \"class_type\": \"RandomNoise\"}, \"26\": {\"inputs\": {\"guidance\": 6.0, \"conditioning\": [\"98\", 0]}, \"class_type\": \"FluxGuidance\"}, \"27\": {\"inputs\": {\"width\": 832, \"height\": 1216, \"batch_size\": 1}, \"class_type\": \"EmptySD3LatentImage\"}, \"30\": {\"inputs\": {\"max_shift\": 0.5, \"base_shift\": 0.3, \"width\": 832, \"height\": 1216, \"model\": [\"52\", 0]}, \"class_type\": \"ModelSamplingFlux\"}, \"41\": {\"inputs\": {\"filename_prefix\": \"ComfyUI\", \"images\": [\"62\", 0]}, \"class_type\": \"SaveImage\"}, \"42\": {\"inputs\": {\"noise\": [\"43\", 0], \"guider\": [\"22\", 0], \"sampler\": [\"16\", 0], \"sigmas\": [\"79\", 0], \"latent_image\": [\"59\", 0]}, \"class_type\": \"SamplerCustomAdvanced\"}, \"43\": {\"inputs\": {\"noise_seed\": 1}, \"class_type\": \"RandomNoise\"}, \"51\": {\"inputs\": {\"lora_name\": \"flux1\\\\realism_lora_comfy flux_converted.safetensors\", \"strength_model\": 0.7000000000000001, \"strength_clip\": 1.0, \"model\": [\"12\", 0], \"clip\": [\"11\", 0]}, \"class_type\": \"LoraLoader\"}, \"52\": {\"inputs\": {\"lora_name\": \"flux1\\\\The_Pit_Pony_Flux.safetensors\", \"strength_model\": 0.5, \"strength_clip\": 1.0, \"model\": [\"51\", 0], \"clip\": [\"51\", 1]}, \"class_type\": \"LoraLoader\"}, \"59\": {\"inputs\": {\"pixels\": [\"75\", 0], \"vae\": [\"10\", 0]}, \"class_type\": \"VAEEncode\"}, \"60\": {\"inputs\": {\"sharpen_radius\": 1, \"sigma\": 0.4, \"alpha\": 0.4, \"image\": [\"8\", 0]}, \"class_type\": \"ImageSharpen\"}, \"61\": {\"inputs\": {\"hdr_intensity\": 1.0, \"shadow_intensity\": 0.25, \"highlight_intensity\": 0.75, \"gamma_intensity\": 0.25, \"contrast\": 0.1, \"enhance_color\": 0.25, \"image\": [\"60\", 0]}, \"class_type\": \"LayerFilter: HDREffects\"}, \"62\": {\"inputs\": {\"intensity\": 0.03, \"scale\": 10.0, \"temperature\": 0.0, \"vignette\": 0.0, \"image\": [\"61\", 0]}, \"class_type\": \"FilmGrain\"}, \"68\": {\"inputs\": {\"text\": \"\", \"clip\": [\"52\", 1]}, \"class_type\": \"CLIPTextEncode\"}, \"69\": {\"inputs\": {\"samples\": [\"42\", 0], \"vae\": [\"10\", 0]}, \"class_type\": \"VAEDecode\"}, \"71\": {\"inputs\": {\"sharpen_radius\": 1, \"sigma\": 0.45, \"alpha\": 0.45, \"image\": [\"72\", 0]}, \"class_type\": \"ImageSharpen\"}, \"72\": {\"inputs\": {\"hdr_intensity\": 0.5, \"shadow_intensity\": 0.25, \"highlight_intensity\": 0.75, \"gamma_intensity\": 0.25, \"contrast\": 0.1, \"enhance_color\": 0.25, \"image\": [\"69\", 0]}, \"class_type\": \"LayerFilter: HDREffects\"}, \"73\": {\"inputs\": {\"intensity\": 0.05, \"scale\": 10.0, \"temperature\": 0.0, \"vignette\": 0.0, \"image\": [\"71\", 0]}, \"class_type\": \"FilmGrain\"}, \"74\": {\"inputs\": {\"filename_prefix\": \"ComfyUI\", \"images\": [\"73\", 0]}, \"class_type\": \"SaveImage\"}, \"75\": {\"inputs\": {\"upscale_method\": \"lanczos\", \"scale_by\": 0.35000000000000003, \"image\": [\"77\", 0]}, \"class_type\": \"ImageScaleBy\"}, \"76\": {\"inputs\": {\"model_name\": \"4x-UltraSharp.pth\"}, \"class_type\": \"Upscale Model Loader\"}, \"77\": {\"inputs\": {\"upscale_model\": [\"76\", 0], \"image\": [\"62\", 0]}, \"class_type\": \"ImageUpscaleWithModel\"}, \"79\": {\"inputs\": {\"scheduler\": \"sgm_uniform\", \"steps\": 25, \"denoise\": 0.15, \"model\": [\"30\", 0]}, \"class_type\": \"BasicScheduler\"}, \"98\": {\"inputs\": {\"text\": \"A voluptuous Viking shieldmaiden stands alone on a windswept cliff, a majestic raven perched on her shoulder. Her expression is fierce and unyielding, with her eyes locked on the distant horizon. Her armor is detailed with Nordic patterns, and a fur mantle rests on her shoulders, with the raven\\u2019s feathers blending into the fur. She holds a spear in one hand, its tip gleaming in the cold light, and her other hand rests on the raven, as if drawing strength from the creature. The sky above is cloudy, with rays of light breaking through, casting an ethereal glow on the scene. Standing with eyes closed, hands together in a prayer-like gesture, as she honors the dead.\\n\\n\\n\", \"clip\": [\"52\", 1]}, \"class_type\": \"CLIPTextEncode\"}, \"107\": {\"inputs\": {\"max_shift\": 1.15, \"base_shift\": 0.5}, \"class_type\": \"ModelSamplingFlux\"}, \"109\": {\"inputs\": {\"tile_size\": 512}, \"class_type\": \"VAEEncodeTiled\"}, \"113\": {\"inputs\": {\"model_name\": \"4x_UniversalUpscalerV2-Neutral_115000_swaG.pth\"}, \"class_type\": \"UpscaleModelLoader\"}}, \"workflow\": {\"last_node_id\": 119, \"last_link_id\": 257, \"nodes\": [{\"id\": 22, \"type\": \"BasicGuider\", \"pos\": [517, 28], \"size\": {\"0\": 161.1999969482422, \"1\": 46}, \"flags\": {}, \"order\": 40, \"mode\": 0, \"inputs\": [{\"name\": \"model\", \"type\": \"MODEL\", \"link\": 54, \"slot_index\": 0}, {\"name\": \"conditioning\", \"type\": \"CONDITIONING\", \"link\": 42, \"slot_index\": 1}], \"outputs\": [{\"name\": \"GUIDER\", \"type\": \"GUIDER\", \"links\": [132], \"slot_index\": 0, \"shape\": 3}], \"properties\": {\"Node name for S&R\": \"BasicGuider\"}}, {\"id\": 53, \"type\": \"Reroute\", \"pos\": [752, -118], \"size\": [75, 26], \"flags\": {}, \"order\": 42, \"mode\": 0, \"inputs\": [{\"name\": \"\", \"type\": \"*\", \"link\": 132}], \"outputs\": [{\"name\": \"\", \"type\": \"GUIDER\", \"links\": [133, 135], \"slot_index\": 0}], \"properties\": {\"showOutputText\": false, \"horizontal\": false}}, {\"id\": 55, \"type\": \"Reroute\", \"pos\": [753, -88], \"size\": [75, 26], \"flags\": {}, \"order\": 18, \"mode\": 0, \"inputs\": [{\"name\": \"\", \"type\": \"*\", \"link\": 136}], \"outputs\": [{\"name\": \"\", \"type\": \"SAMPLER\", \"links\": [139], \"slot_index\": 0}], \"properties\": {\"showOutputText\": false, \"horizontal\": false}}, {\"id\": 58, \"type\": \"Reroute\", \"pos\": [1300, -53], \"size\": [75, 26], \"flags\": {}, \"order\": 15, \"mode\": 0, \"inputs\": [{\"name\": \"\", \"type\": \"*\", \"link\": 141}], \"outputs\": [{\"name\": \"\", \"type\": \"*\", \"links\": [], \"slot_index\": 0}], \"properties\": {\"showOutputText\": false, \"horizontal\": false}}, {\"id\": 48, \"type\": \"Reroute\", \"pos\": [295, -230], \"size\": [75, 26], \"flags\": {}, \"order\": 35, \"mode\": 0, \"inputs\": [{\"name\": \"\", \"type\": \"*\", \"link\": 157}], \"outputs\": [{\"name\": \"\", \"type\": \"CONDITIONING\", \"links\": [152], \"slot_index\": 0}], \"properties\": {\"showOutputText\": false, \"horizontal\": false}}, {\"id\": 46, \"type\": \"Reroute\", \"pos\": [294, -299], \"size\": [75, 26], \"flags\": {}, \"order\": 29, \"mode\": 0, \"inputs\": [{\"name\": \"\", \"type\": \"*\", \"link\": 123}], \"outputs\": [{\"name\": \"\", \"type\": \"MODEL\", \"links\": [150], \"slot_index\": 0}], \"properties\": {\"showOutputText\": false, \"horizontal\": false}}, {\"id\": 66, \"type\": \"Reroute\", \"pos\": [1295, -200], \"size\": [75, 26], \"flags\": {}, \"order\": 32, \"mode\": 0, \"inputs\": [{\"name\": \"\", \"type\": \"*\", \"link\": 158}], \"outputs\": [{\"name\": \"\", \"type\": \"CLIP\", \"links\": null}], \"properties\": {\"showOutputText\": false, \"horizontal\": false}}, {\"id\": 68, \"type\": \"CLIPTextEncode\", \"pos\": [-234, -196], \"size\": {\"0\": 400, \"1\": 200}, \"flags\": {\"collapsed\": true}, \"order\": 31, \"mode\": 0, \"inputs\": [{\"name\": \"clip\", \"type\": \"CLIP\", \"link\": 156}], \"outputs\": [{\"name\": \"CONDITIONING\", \"type\": \"CONDITIONING\", \"links\": [157], \"slot_index\": 0, \"shape\": 3}], \"properties\": {\"Node name for S&R\": \"CLIPTextEncode\"}, \"widgets_values\": [\"\"]}, {\"id\": 49, \"type\": \"Reroute\", \"pos\": [293, -192], \"size\": [75, 26], \"flags\": {}, \"order\": 25, \"mode\": 0, \"inputs\": [{\"name\": \"\", \"type\": \"*\", \"link\": 153}], \"outputs\": [{\"name\": \"\", \"type\": \"CLIP\", \"links\": [156, 158, 211], \"slot_index\": 0}], \"properties\": {\"showOutputText\": false, \"horizontal\": false}}, {\"id\": 67, \"type\": \"Reroute\", \"pos\": [1294, -167], \"size\": [75, 26], \"flags\": {}, \"order\": 20, \"mode\": 0, \"inputs\": [{\"name\": \"\", \"type\": \"*\", \"link\": 160}], \"outputs\": [{\"name\": \"\", \"type\": \"VAE\", \"links\": [161, 163], \"slot_index\": 0}], \"properties\": {\"showOutputText\": false, \"horizontal\": false}}, {\"id\": 11, \"type\": \"DualCLIPLoader\", \"pos\": [36, 173], \"size\": {\"0\": 315, \"1\": 106}, \"flags\": {}, \"order\": 0, \"mode\": 0, \"outputs\": [{\"name\": \"CLIP\", \"type\": \"CLIP\", \"links\": [127], \"slot_index\": 0, \"shape\": 3}], \"properties\": {\"Node name for S&R\": \"DualCLIPLoader\"}, \"widgets_values\": [\"t5\\\\google_t5-v1_1-xxl_encoderonly-fp8_e4m3fn.safetensors\", \"t5\\\\clip_l.safetensors\", \"flux\"]}, {\"id\": 50, \"type\": \"Reroute\", \"pos\": [400, -165], \"size\": [75, 26], \"flags\": {}, \"order\": 16, \"mode\": 0, \"inputs\": [{\"name\": \"\", \"type\": \"*\", \"link\": 149}], \"outputs\": [{\"name\": \"\", \"type\": \"VAE\", \"links\": [160, 178], \"slot_index\": 0}], \"properties\": {\"showOutputText\": false, \"horizontal\": false}}, {\"id\": 57, \"type\": \"Reroute\", \"pos\": [753, -53], \"size\": [75, 26], \"flags\": {}, \"order\": 1, \"mode\": 0, \"inputs\": [{\"name\": \"\", \"type\": \"*\", \"link\": null}], \"outputs\": [{\"name\": \"\", \"type\": \"*\", \"links\": [141], \"slot_index\": 0}], \"properties\": {\"showOutputText\": false, \"horizontal\": false}}, {\"id\": 70, \"type\": \"Reroute\", \"pos\": [1685, -167], \"size\": [75, 26], \"flags\": {}, \"order\": 23, \"mode\": 0, \"inputs\": [{\"name\": \"\", \"type\": \"*\", \"link\": 163}], \"outputs\": [{\"name\": \"\", \"type\": \"VAE\", \"links\": [164, 186], \"slot_index\": 0}], \"properties\": {\"showOutputText\": false, \"horizontal\": false}}, {\"id\": 54, \"type\": \"Reroute\", \"pos\": [1297, -118], \"size\": [75, 26], \"flags\": {}, \"order\": 43, \"mode\": 0, \"inputs\": [{\"name\": \"\", \"type\": \"*\", \"link\": 133}], \"outputs\": [{\"name\": \"\", \"type\": \"GUIDER\", \"links\": [134, 194], \"slot_index\": 0}], \"properties\": {\"showOutputText\": false, \"horizontal\": false}}, {\"id\": 56, \"type\": \"Reroute\", \"pos\": [1299, -85], \"size\": [75, 26], \"flags\": {}, \"order\": 22, \"mode\": 0, \"inputs\": [{\"name\": \"\", \"type\": \"*\", \"link\": 139}], \"outputs\": [{\"name\": \"\", \"type\": \"SAMPLER\", \"links\": [138, 196], \"slot_index\": 0}], \"properties\": {\"showOutputText\": false, \"horizontal\": false}}, {\"id\": 63, \"type\": \"Reroute\", \"pos\": [1292, -300], \"size\": [75, 26], \"flags\": {}, \"order\": 34, \"mode\": 0, \"inputs\": [{\"name\": \"\", \"type\": \"*\", \"link\": 150}], \"outputs\": [{\"name\": \"\", \"type\": \"MODEL\", \"links\": [209], \"slot_index\": 0}], \"properties\": {\"showOutputText\": false, \"horizontal\": false}}, {\"id\": 47, \"type\": \"Reroute\", \"pos\": [294, -266], \"size\": [75, 26], \"flags\": {}, \"order\": 37, \"mode\": 0, \"inputs\": [{\"name\": \"\", \"type\": \"*\", \"link\": 214}], \"outputs\": [{\"name\": \"\", \"type\": \"CONDITIONING\", \"links\": [151], \"slot_index\": 0}], \"properties\": {\"showOutputText\": false, \"horizontal\": false}}, {\"id\": 109, \"type\": \"VAEEncodeTiled\", \"pos\": [-592, 672], \"size\": {\"0\": 315, \"1\": 78}, \"flags\": {}, \"order\": 2, \"mode\": 0, \"inputs\": [{\"name\": \"pixels\", \"type\": \"IMAGE\", \"link\": null}, {\"name\": \"vae\", \"type\": \"VAE\", \"link\": null}], \"outputs\": [{\"name\": \"LATENT\", \"type\": \"LATENT\", \"links\": null, \"shape\": 3}], \"properties\": {\"Node name for S&R\": \"VAEEncodeTiled\"}, \"widgets_values\": [512]}, {\"id\": 87, \"type\": \"Reroute\", \"pos\": [2216, -220], \"size\": [75, 26], \"flags\": {}, \"order\": 45, \"mode\": 0, \"inputs\": [{\"name\": \"\", \"type\": \"*\", \"link\": 194}], \"outputs\": [{\"name\": \"\", \"type\": \"GUIDER\", \"links\": [], \"slot_index\": 0}], \"properties\": {\"showOutputText\": false, \"horizontal\": false}}, {\"id\": 88, \"type\": \"Reroute\", \"pos\": [2219, -184], \"size\": [75, 26], \"flags\": {}, \"order\": 26, \"mode\": 0, \"inputs\": [{\"name\": \"\", \"type\": \"*\", \"link\": 196}], \"outputs\": [{\"name\": \"\", \"type\": \"SAMPLER\", \"links\": [], \"slot_index\": 0}], \"properties\": {\"showOutputText\": false, \"horizontal\": false}}, {\"id\": 96, \"type\": \"Reroute\", \"pos\": [2218, -289], \"size\": [75, 26], \"flags\": {}, \"order\": 38, \"mode\": 0, \"inputs\": [{\"name\": \"\", \"type\": \"*\", \"link\": 209}], \"outputs\": [{\"name\": \"\", \"type\": \"MODEL\", \"links\": [236], \"slot_index\": 0}], \"properties\": {\"showOutputText\": false, \"horizontal\": false}}, {\"id\": 81, \"type\": \"Reroute\", \"pos\": [2216, -254], \"size\": [75, 26], \"flags\": {}, \"order\": 27, \"mode\": 0, \"inputs\": [{\"name\": \"\", \"type\": \"*\", \"link\": 186}], \"outputs\": [{\"name\": \"\", \"type\": \"VAE\", \"links\": [237], \"slot_index\": 0}], \"properties\": {\"showOutputText\": false, \"horizontal\": false}}, {\"id\": 64, \"type\": \"Reroute\", \"pos\": [1294, -267], \"size\": [75, 26], \"flags\": {}, \"order\": 41, \"mode\": 0, \"inputs\": [{\"name\": \"\", \"type\": \"*\", \"link\": 151}], \"outputs\": [{\"name\": \"\", \"type\": \"CONDITIONING\", \"links\": [238], \"slot_index\": 0}], \"properties\": {\"showOutputText\": false, \"horizontal\": false}}, {\"id\": 65, \"type\": \"Reroute\", \"pos\": [1294, -233], \"size\": [75, 26], \"flags\": {}, \"order\": 39, \"mode\": 0, \"inputs\": [{\"name\": \"\", \"type\": \"*\", \"link\": 152}], \"outputs\": [{\"name\": \"\", \"type\": \"CONDITIONING\", \"links\": [239], \"slot_index\": 0}], \"properties\": {\"showOutputText\": false, \"horizontal\": false}}, {\"id\": 8, \"type\": \"VAEDecode\", \"pos\": [892, 13], \"size\": {\"0\": 210, \"1\": 46}, \"flags\": {}, \"order\": 46, \"mode\": 0, \"inputs\": [{\"name\": \"samples\", \"type\": \"LATENT\", \"link\": 24}, {\"name\": \"vae\", \"type\": \"VAE\", \"link\": 178}], \"outputs\": [{\"name\": \"IMAGE\", \"type\": \"IMAGE\", \"links\": [144], \"slot_index\": 0}], \"properties\": {\"Node name for S&R\": \"VAEDecode\"}, \"color\": \"#322\", \"bgcolor\": \"#533\"}, {\"id\": 69, \"type\": \"VAEDecode\", \"pos\": [1801, 21], \"size\": {\"0\": 210, \"1\": 46}, \"flags\": {}, \"order\": 55, \"mode\": 0, \"inputs\": [{\"name\": \"samples\", \"type\": \"LATENT\", \"link\": 159}, {\"name\": \"vae\", \"type\": \"VAE\", \"link\": 164}], \"outputs\": [{\"name\": \"IMAGE\", \"type\": \"IMAGE\", \"links\": [244], \"slot_index\": 0, \"shape\": 3}], \"properties\": {\"Node name for S&R\": \"VAEDecode\"}, \"color\": \"#432\", \"bgcolor\": \"#653\"}, {\"id\": 73, \"type\": \"FilmGrain\", \"pos\": [1819, 370], \"size\": {\"0\": 210, \"1\": 130}, \"flags\": {}, \"order\": 61, \"mode\": 0, \"inputs\": [{\"name\": \"image\", \"type\": \"IMAGE\", \"link\": 246}], \"outputs\": [{\"name\": \"IMAGE\", \"type\": \"IMAGE\", \"links\": [168, 249], \"slot_index\": 0, \"shape\": 3}], \"properties\": {\"Node name for S&R\": \"FilmGrain\"}, \"widgets_values\": [0.05, 10, 0, 0], \"color\": \"#432\", \"bgcolor\": \"#653\"}, {\"id\": 59, \"type\": \"VAEEncode\", \"pos\": [1530, 32], \"size\": {\"0\": 210, \"1\": 46}, \"flags\": {}, \"order\": 53, \"mode\": 0, \"inputs\": [{\"name\": \"pixels\", \"type\": \"IMAGE\", \"link\": 184}, {\"name\": \"vae\", \"type\": \"VAE\", \"link\": 161}], \"outputs\": [{\"name\": \"LATENT\", \"type\": \"LATENT\", \"links\": [143], \"shape\": 3}], \"properties\": {\"Node name for S&R\": \"VAEEncode\"}, \"color\": \"#432\", \"bgcolor\": \"#653\"}, {\"id\": 61, \"type\": \"LayerFilter: HDREffects\", \"pos\": [892, 713], \"size\": {\"0\": 315, \"1\": 178}, \"flags\": {}, \"order\": 48, \"mode\": 0, \"inputs\": [{\"name\": \"image\", \"type\": \"IMAGE\", \"link\": 145}], \"outputs\": [{\"name\": \"image\", \"type\": \"IMAGE\", \"links\": [146], \"slot_index\": 0, \"shape\": 3}], \"properties\": {\"Node name for S&R\": \"LayerFilter: HDREffects\"}, \"widgets_values\": [1, 0.25, 0.75, 0.25, 0.1, 0.25], \"color\": \"#322\", \"bgcolor\": \"#533\"}, {\"id\": 72, \"type\": \"LayerFilter: HDREffects\", \"pos\": [1813, 140], \"size\": {\"0\": 210, \"1\": 178}, \"flags\": {}, \"order\": 56, \"mode\": 0, \"inputs\": [{\"name\": \"image\", \"type\": \"IMAGE\", \"link\": 244}], \"outputs\": [{\"name\": \"image\", \"type\": \"IMAGE\", \"links\": [250, 253], \"slot_index\": 0, \"shape\": 3}], \"properties\": {\"Node name for S&R\": \"LayerFilter: HDREffects\"}, \"widgets_values\": [0.5, 0.25, 0.75, 0.25, 0.1, 0.25], \"color\": \"#432\", \"bgcolor\": \"#653\"}, {\"id\": 114, \"type\": \"LayerFilter: HDREffects\", \"pos\": [2793, -116], \"size\": {\"0\": 210, \"1\": 178}, \"flags\": {}, \"order\": 60, \"mode\": 4, \"inputs\": [{\"name\": \"image\", \"type\": \"IMAGE\", \"link\": 240}], \"outputs\": [{\"name\": \"image\", \"type\": \"IMAGE\", \"links\": [256], \"slot_index\": 0, \"shape\": 3}], \"properties\": {\"Node name for S&R\": \"LayerFilter: HDREffects\"}, \"widgets_values\": [0.5, 0.25, 0.75, 0.25, 0.1, 0.25], \"color\": \"#432\", \"bgcolor\": \"#653\"}, {\"id\": 117, \"type\": \"SaveImagePlus\", \"pos\": [5600, 794], \"size\": {\"0\": 862.4429931640625, \"1\": 1502.5948486328125}, \"flags\": {}, \"order\": 64, \"mode\": 4, \"inputs\": [{\"name\": \"images\", \"type\": \"IMAGE\", \"link\": 249}], \"properties\": {\"Node name for S&R\": \"SaveImagePlus\"}, \"widgets_values\": [\"ComfyUI\", \"JPEG\", true]}, {\"id\": 119, \"type\": \"ImageSharpen\", \"pos\": [2691, 133], \"size\": {\"0\": 315, \"1\": 106}, \"flags\": {}, \"order\": 62, \"mode\": 4, \"inputs\": [{\"name\": \"image\", \"type\": \"IMAGE\", \"link\": 256}], \"outputs\": [{\"name\": \"IMAGE\", \"type\": \"IMAGE\", \"links\": [257], \"slot_index\": 0, \"shape\": 3}], \"properties\": {\"Node name for S&R\": \"ImageSharpen\"}, \"widgets_values\": [1, 0.25, 0.25]}, {\"id\": 118, \"type\": \"LayerFilter: HDREffects\", \"pos\": [2785, 313], \"size\": {\"0\": 210, \"1\": 178}, \"flags\": {}, \"order\": 57, \"mode\": 4, \"inputs\": [{\"name\": \"image\", \"type\": \"IMAGE\", \"link\": 250}], \"outputs\": [{\"name\": \"image\", \"type\": \"IMAGE\", \"links\": [251], \"slot_index\": 0, \"shape\": 3}], \"properties\": {\"Node name for S&R\": \"LayerFilter: HDREffects\"}, \"widgets_values\": [0.75, 0.5, 0.75, 0.25, 0.2, 0], \"color\": \"#432\", \"bgcolor\": \"#653\"}, {\"id\": 62, \"type\": \"FilmGrain\", \"pos\": [886, 943], \"size\": {\"0\": 315, \"1\": 130}, \"flags\": {}, \"order\": 49, \"mode\": 0, \"inputs\": [{\"name\": \"image\", \"type\": \"IMAGE\", \"link\": 146}], \"outputs\": [{\"name\": \"IMAGE\", \"type\": \"IMAGE\", \"links\": [147, 182], \"slot_index\": 0, \"shape\": 3}], \"properties\": {\"Node name for S&R\": \"FilmGrain\"}, \"widgets_values\": [0.03, 10, 0, 0], \"color\": \"#322\", \"bgcolor\": \"#533\"}, {\"id\": 112, \"type\": \"UltimateSDUpscale\", \"pos\": [2329, -138], \"size\": {\"0\": 355.0667724609375, \"1\": 848.9564208984375}, \"flags\": {}, \"order\": 58, \"mode\": 4, \"inputs\": [{\"name\": \"image\", \"type\": \"IMAGE\", \"link\": 253}, {\"name\": \"model\", \"type\": \"MODEL\", \"link\": 236}, {\"name\": \"positive\", \"type\": \"CONDITIONING\", \"link\": 238}, {\"name\": \"negative\", \"type\": \"CONDITIONING\", \"link\": 239}, {\"name\": \"vae\", \"type\": \"VAE\", \"link\": 237}, {\"name\": \"upscale_model\", \"type\": \"UPSCALE_MODEL\", \"link\": 235}], \"outputs\": [{\"name\": \"IMAGE\", \"type\": \"IMAGE\", \"links\": [240], \"shape\": 3}], \"properties\": {\"Node name for S&R\": \"UltimateSDUpscale\"}, \"widgets_values\": [2, 1, \"fixed\", 25, 4, \"euler\", \"sgm_uniform\", 0.25, \"Linear\", 1344, 768, 20, 56, \"None\", 1, 64, 8, 16, false, false]}, {\"id\": 37, \"type\": \"Note\", \"pos\": [14, 1194], \"size\": {\"0\": 314.99755859375, \"1\": 117.98363494873047}, \"flags\": {}, \"order\": 3, \"mode\": 0, \"properties\": {\"text\": \"\"}, \"widgets_values\": [\"The reference sampling implementation auto adjusts the shift value based on the resolution, if you don't want this you can just bypass (CTRL-B) this ModelSamplingFlux node.\\n\"], \"color\": \"#432\", \"bgcolor\": \"#653\"}, {\"id\": 27, \"type\": \"EmptySD3LatentImage\", \"pos\": [485, 613], \"size\": {\"0\": 315, \"1\": 106}, \"flags\": {}, \"order\": 19, \"mode\": 0, \"inputs\": [{\"name\": \"width\", \"type\": \"INT\", \"link\": 112, \"widget\": {\"name\": \"width\"}}, {\"name\": \"height\", \"type\": \"INT\", \"link\": 113, \"widget\": {\"name\": \"height\"}}], \"outputs\": [{\"name\": \"LATENT\", \"type\": \"LATENT\", \"links\": [116], \"slot_index\": 0, \"shape\": 3}], \"properties\": {\"Node name for S&R\": \"EmptySD3LatentImage\"}, \"widgets_values\": [832, 1216, 1]}, {\"id\": 107, \"type\": \"ModelSamplingFlux\", \"pos\": [881, 1498], \"size\": {\"0\": 315, \"1\": 130}, \"flags\": {}, \"order\": 4, \"mode\": 0, \"inputs\": [{\"name\": \"model\", \"type\": \"MODEL\", \"link\": null, \"slot_index\": 0}, {\"name\": \"width\", \"type\": \"INT\", \"link\": null, \"slot_index\": 1, \"widget\": {\"name\": \"width\"}}, {\"name\": \"height\", \"type\": \"INT\", \"link\": null, \"slot_index\": 2, \"widget\": {\"name\": \"height\"}}], \"outputs\": [{\"name\": \"MODEL\", \"type\": \"MODEL\", \"links\": [], \"slot_index\": 0, \"shape\": 3}], \"properties\": {\"Node name for S&R\": \"ModelSamplingFlux\"}, \"widgets_values\": [1.15, 0.5, 832, 1216]}, {\"id\": 42, \"type\": \"SamplerCustomAdvanced\", \"pos\": [1453, 127], \"size\": {\"0\": 307.489501953125, \"1\": 514.7807006835938}, \"flags\": {}, \"order\": 54, \"mode\": 0, \"inputs\": [{\"name\": \"noise\", \"type\": \"NOISE\", \"link\": 130, \"slot_index\": 0}, {\"name\": \"guider\", \"type\": \"GUIDER\", \"link\": 134, \"slot_index\": 1}, {\"name\": \"sampler\", \"type\": \"SAMPLER\", \"link\": 138, \"slot_index\": 2}, {\"name\": \"sigmas\", \"type\": \"SIGMAS\", \"link\": 181, \"slot_index\": 3}, {\"name\": \"latent_image\", \"type\": \"LATENT\", \"link\": 143, \"slot_index\": 4}], \"outputs\": [{\"name\": \"output\", \"type\": \"LATENT\", \"links\": [159], \"slot_index\": 0, \"shape\": 3}, {\"name\": \"denoised_output\", \"type\": \"LATENT\", \"links\": null, \"shape\": 3}], \"properties\": {\"Node name for S&R\": \"SamplerCustomAdvanced\"}, \"color\": \"#432\", \"bgcolor\": \"#653\"}, {\"id\": 76, \"type\": \"Upscale Model Loader\", \"pos\": [778, 1341], \"size\": {\"0\": 415.8259582519531, \"1\": 78}, \"flags\": {}, \"order\": 5, \"mode\": 0, \"outputs\": [{\"name\": \"UPSCALE_MODEL\", \"type\": \"UPSCALE_MODEL\", \"links\": [172], \"slot_index\": 0, \"shape\": 3}, {\"name\": \"MODEL_NAME_TEXT\", \"type\": \"STRING\", \"links\": null, \"shape\": 3}], \"properties\": {\"Node name for S&R\": \"Upscale Model Loader\"}, \"widgets_values\": [\"4x-UltraSharp.pth\"], \"color\": \"#432\", \"bgcolor\": \"#653\"}, {\"id\": 77, \"type\": \"ImageUpscaleWithModel\", \"pos\": [450, 1353], \"size\": {\"0\": 241.79998779296875, \"1\": 46}, \"flags\": {}, \"order\": 51, \"mode\": 0, \"inputs\": [{\"name\": \"upscale_model\", \"type\": \"UPSCALE_MODEL\", \"link\": 172}, {\"name\": \"image\", \"type\": \"IMAGE\", \"link\": 182}], \"outputs\": [{\"name\": \"IMAGE\", \"type\": \"IMAGE\", \"links\": [183], \"slot_index\": 0, \"shape\": 3}], \"properties\": {\"Node name for S&R\": \"ImageUpscaleWithModel\"}, \"color\": \"#432\", \"bgcolor\": \"#653\"}, {\"id\": 75, \"type\": \"ImageScaleBy\", \"pos\": [877, 1149], \"size\": {\"0\": 315, \"1\": 82}, \"flags\": {}, \"order\": 52, \"mode\": 0, \"inputs\": [{\"name\": \"image\", \"type\": \"IMAGE\", \"link\": 183}], \"outputs\": [{\"name\": \"IMAGE\", \"type\": \"IMAGE\", \"links\": [184], \"slot_index\": 0, \"shape\": 3}], \"properties\": {\"Node name for S&R\": \"ImageScaleBy\"}, \"widgets_values\": [\"lanczos\", 0.35000000000000003], \"color\": \"#432\", \"bgcolor\": \"#653\"}, {\"id\": 10, \"type\": \"VAELoader\", \"pos\": [137, 330], \"size\": {\"0\": 210, \"1\": 58}, \"flags\": {}, \"order\": 6, \"mode\": 0, \"outputs\": [{\"name\": \"VAE\", \"type\": \"VAE\", \"links\": [149], \"slot_index\": 0, \"shape\": 3}], \"properties\": {\"Node name for S&R\": \"VAELoader\"}, \"widgets_values\": [\"FLUX1\\\\ae.sft\"]}, {\"id\": 12, \"type\": \"UNETLoader\", \"pos\": [34, 42], \"size\": {\"0\": 315, \"1\": 82}, \"flags\": {}, \"order\": 7, \"mode\": 0, \"outputs\": [{\"name\": \"MODEL\", \"type\": \"MODEL\", \"links\": [252], \"slot_index\": 0, \"shape\": 3}], \"properties\": {\"Node name for S&R\": \"UNETLoader\"}, \"widgets_values\": [\"FLUX1\\\\flux1-dev-fp8.safetensors\", \"fp8_e4m3fn\"], \"color\": \"#223\", \"bgcolor\": \"#335\"}, {\"id\": 95, \"type\": \"SaveImage\", \"pos\": [3063, 555], \"size\": {\"0\": 808.7037963867188, \"1\": 1233.263916015625}, \"flags\": {}, \"order\": 65, \"mode\": 4, \"inputs\": [{\"name\": \"images\", \"type\": \"IMAGE\", \"link\": 257}], \"title\": \"Final Image\", \"properties\": {\"Node name for S&R\": \"SaveImage\"}, \"widgets_values\": [\"ComfyUI\"], \"color\": \"#232\", \"bgcolor\": \"#353\"}, {\"id\": 60, \"type\": \"ImageSharpen\", \"pos\": [913, 551], \"size\": {\"0\": 315, \"1\": 106}, \"flags\": {}, \"order\": 47, \"mode\": 0, \"inputs\": [{\"name\": \"image\", \"type\": \"IMAGE\", \"link\": 144}], \"outputs\": [{\"name\": \"IMAGE\", \"type\": \"IMAGE\", \"links\": [145], \"slot_index\": 0, \"shape\": 3}], \"properties\": {\"Node name for S&R\": \"ImageSharpen\"}, \"widgets_values\": [1, 0.4, 0.4], \"color\": \"#322\", \"bgcolor\": \"#533\"}, {\"id\": 71, \"type\": \"ImageSharpen\", \"pos\": [2061, 273], \"size\": {\"0\": 210, \"1\": 106}, \"flags\": {\"collapsed\": false}, \"order\": 59, \"mode\": 0, \"inputs\": [{\"name\": \"image\", \"type\": \"IMAGE\", \"link\": 251}], \"outputs\": [{\"name\": \"IMAGE\", \"type\": \"IMAGE\", \"links\": [246], \"slot_index\": 0, \"shape\": 3}], \"properties\": {\"Node name for S&R\": \"ImageSharpen\"}, \"widgets_values\": [1, 0.45, 0.45], \"color\": \"#432\", \"bgcolor\": \"#653\"}, {\"id\": 113, \"type\": \"UpscaleModelLoader\", \"pos\": [2039, 172], \"size\": {\"0\": 263.07012939453125, \"1\": 58}, \"flags\": {}, \"order\": 8, \"mode\": 0, \"outputs\": [{\"name\": \"UPSCALE_MODEL\", \"type\": \"UPSCALE_MODEL\", \"links\": [235], \"shape\": 3}], \"properties\": {\"Node name for S&R\": \"UpscaleModelLoader\"}, \"widgets_values\": [\"4x_UniversalUpscalerV2-Neutral_115000_swaG.pth\"]}, {\"id\": 25, \"type\": \"RandomNoise\", \"pos\": [472, 766], \"size\": {\"0\": 315, \"1\": 82}, \"flags\": {}, \"order\": 9, \"mode\": 0, \"outputs\": [{\"name\": \"NOISE\", \"type\": \"NOISE\", \"links\": [37], \"slot_index\": 0, \"shape\": 3}], \"properties\": {\"Node name for S&R\": \"RandomNoise\"}, \"widgets_values\": [6482, \"increment\"], \"color\": \"#2a363b\", \"bgcolor\": \"#3f5159\"}, {\"id\": 30, \"type\": \"ModelSamplingFlux\", \"pos\": [480, 1152], \"size\": {\"0\": 315, \"1\": 130}, \"flags\": {}, \"order\": 24, \"mode\": 0, \"inputs\": [{\"name\": \"model\", \"type\": \"MODEL\", \"link\": 126, \"slot_index\": 0}, {\"name\": \"width\", \"type\": \"INT\", \"link\": 115, \"slot_index\": 1, \"widget\": {\"name\": \"width\"}}, {\"name\": \"height\", \"type\": \"INT\", \"link\": 114, \"slot_index\": 2, \"widget\": {\"name\": \"height\"}}], \"outputs\": [{\"name\": \"MODEL\", \"type\": \"MODEL\", \"links\": [54, 122, 123, 180], \"slot_index\": 0, \"shape\": 3}], \"properties\": {\"Node name for S&R\": \"ModelSamplingFlux\"}, \"widgets_values\": [0.5, 0.3, 832, 1216]}, {\"id\": 26, \"type\": \"FluxGuidance\", \"pos\": [490, 115], \"size\": {\"0\": 211.60000610351562, \"1\": 58}, \"flags\": {}, \"order\": 36, \"mode\": 0, \"inputs\": [{\"name\": \"conditioning\", \"type\": \"CONDITIONING\", \"link\": 213}], \"outputs\": [{\"name\": \"CONDITIONING\", \"type\": \"CONDITIONING\", \"links\": [42], \"slot_index\": 0, \"shape\": 3}], \"properties\": {\"Node name for S&R\": \"FluxGuidance\"}, \"widgets_values\": [6], \"color\": \"#233\", \"bgcolor\": \"#355\"}, {\"id\": 79, \"type\": \"BasicScheduler\", \"pos\": [1829, 554], \"size\": {\"0\": 315, \"1\": 106}, \"flags\": {}, \"order\": 30, \"mode\": 0, \"inputs\": [{\"name\": \"model\", \"type\": \"MODEL\", \"link\": 180, \"slot_index\": 0}], \"outputs\": [{\"name\": \"SIGMAS\", \"type\": \"SIGMAS\", \"links\": [181], \"slot_index\": 0, \"shape\": 3}], \"properties\": {\"Node name for S&R\": \"BasicScheduler\"}, \"widgets_values\": [\"sgm_uniform\", 25, 0.15], \"color\": \"#432\", \"bgcolor\": \"#653\"}, {\"id\": 74, \"type\": \"SaveImage\", \"pos\": [2091, 962], \"size\": [813.5270385742188, 1236.560546875], \"flags\": {}, \"order\": 63, \"mode\": 0, \"inputs\": [{\"name\": \"images\", \"type\": \"IMAGE\", \"link\": 168}], \"title\": \"2nd Pass\", \"properties\": {\"Node name for S&R\": \"SaveImage\"}, \"widgets_values\": [\"ComfyUI\"], \"color\": \"#432\", \"bgcolor\": \"#653\", \"locked\": true}, {\"id\": 41, \"type\": \"SaveImage\", \"pos\": [1245, 969], \"size\": [813.2683715820312, 1239.0855712890625], \"flags\": {}, \"order\": 50, \"mode\": 0, \"inputs\": [{\"name\": \"images\", \"type\": \"IMAGE\", \"link\": 147}], \"title\": \"1st Pass\", \"properties\": {\"Node name for S&R\": \"Save Image\"}, \"widgets_values\": [\"ComfyUI\"], \"color\": \"#322\", \"bgcolor\": \"#533\", \"locked\": true}, {\"id\": 28, \"type\": \"Note\", \"pos\": [-44, 810], \"size\": {\"0\": 336, \"1\": 288}, \"flags\": {}, \"order\": 10, \"mode\": 0, \"properties\": {\"text\": \"\"}, \"widgets_values\": [\"If you get an error in any of the nodes above make sure the files are in the correct directories.\\n\\nSee the top of the examples page for the links : https://comfyanonymous.github.io/ComfyUI_examples/flux/\\n\\nflux1-dev.safetensors goes in: ComfyUI/models/unet/\\n\\nt5xxl_fp16.safetensors and clip_l.safetensors go in: ComfyUI/models/clip/\\n\\nae.safetensors goes in: ComfyUI/models/vae/\\n\\n\\nTip: You can set the weight_dtype above to one of the fp8 types if you have memory issues.\"], \"color\": \"#432\", \"bgcolor\": \"#653\"}, {\"id\": 16, \"type\": \"KSamplerSelect\", \"pos\": [473, 893], \"size\": {\"0\": 315, \"1\": 58}, \"flags\": {}, \"order\": 11, \"mode\": 0, \"outputs\": [{\"name\": \"SAMPLER\", \"type\": \"SAMPLER\", \"links\": [19, 136], \"slot_index\": 0, \"shape\": 3}], \"properties\": {\"Node name for S&R\": \"KSamplerSelect\"}, \"widgets_values\": [\"euler\"]}, {\"id\": 17, \"type\": \"BasicScheduler\", \"pos\": [486, 994], \"size\": {\"0\": 315, \"1\": 106}, \"flags\": {}, \"order\": 28, \"mode\": 0, \"inputs\": [{\"name\": \"model\", \"type\": \"MODEL\", \"link\": 122, \"slot_index\": 0}], \"outputs\": [{\"name\": \"SIGMAS\", \"type\": \"SIGMAS\", \"links\": [179], \"slot_index\": 0, \"shape\": 3}], \"properties\": {\"Node name for S&R\": \"BasicScheduler\"}, \"widgets_values\": [\"sgm_uniform\", 30, 1]}, {\"id\": 35, \"type\": \"PrimitiveNode\", \"pos\": [646, 490], \"size\": {\"0\": 210, \"1\": 82}, \"flags\": {}, \"order\": 12, \"mode\": 0, \"outputs\": [{\"name\": \"INT\", \"type\": \"INT\", \"links\": [113, 114], \"slot_index\": 0, \"widget\": {\"name\": \"height\"}}], \"title\": \"height\", \"properties\": {\"Run widget replace on values\": false}, \"widgets_values\": [1216, \"fixed\"], \"color\": \"#323\", \"bgcolor\": \"#535\"}, {\"id\": 34, \"type\": \"PrimitiveNode\", \"pos\": [411, 486], \"size\": {\"0\": 210, \"1\": 82}, \"flags\": {}, \"order\": 13, \"mode\": 0, \"outputs\": [{\"name\": \"INT\", \"type\": \"INT\", \"links\": [112, 115], \"slot_index\": 0, \"widget\": {\"name\": \"width\"}}], \"title\": \"width\", \"properties\": {\"Run widget replace on values\": false}, \"widgets_values\": [832, \"fixed\"], \"color\": \"#323\", \"bgcolor\": \"#535\"}, {\"id\": 52, \"type\": \"LoraLoader\", \"pos\": [-102, 616], \"size\": {\"0\": 455.3192138671875, \"1\": 131.6434326171875}, \"flags\": {}, \"order\": 21, \"mode\": 0, \"inputs\": [{\"name\": \"model\", \"type\": \"MODEL\", \"link\": 125}, {\"name\": \"clip\", \"type\": \"CLIP\", \"link\": 128}], \"outputs\": [{\"name\": \"MODEL\", \"type\": \"MODEL\", \"links\": [126], \"slot_index\": 0, \"shape\": 3}, {\"name\": \"CLIP\", \"type\": \"CLIP\", \"links\": [153], \"slot_index\": 1, \"shape\": 3}], \"properties\": {\"Node name for S&R\": \"LoraLoader\"}, \"widgets_values\": [\"flux1\\\\The_Pit_Pony_Flux.safetensors\", 0.5, 1]}, {\"id\": 43, \"type\": \"RandomNoise\", \"pos\": [1193, 116], \"size\": {\"0\": 245.11636352539062, \"1\": 82}, \"flags\": {}, \"order\": 14, \"mode\": 0, \"outputs\": [{\"name\": \"NOISE\", \"type\": \"NOISE\", \"links\": [130], \"slot_index\": 0, \"shape\": 3}], \"properties\": {\"Node name for S&R\": \"RandomNoise\"}, \"widgets_values\": [1, \"fixed\"], \"color\": \"#432\", \"bgcolor\": \"#653\"}, {\"id\": 13, \"type\": \"SamplerCustomAdvanced\", \"pos\": [908, 102], \"size\": {\"0\": 257.9351501464844, \"1\": 394.89031982421875}, \"flags\": {}, \"order\": 44, \"mode\": 0, \"inputs\": [{\"name\": \"noise\", \"type\": \"NOISE\", \"link\": 37, \"slot_index\": 0}, {\"name\": \"guider\", \"type\": \"GUIDER\", \"link\": 135, \"slot_index\": 1}, {\"name\": \"sampler\", \"type\": \"SAMPLER\", \"link\": 19, \"slot_index\": 2}, {\"name\": \"sigmas\", \"type\": \"SIGMAS\", \"link\": 179, \"slot_index\": 3}, {\"name\": \"latent_image\", \"type\": \"LATENT\", \"link\": 116, \"slot_index\": 4}], \"outputs\": [{\"name\": \"output\", \"type\": \"LATENT\", \"links\": [24], \"slot_index\": 0, \"shape\": 3}, {\"name\": \"denoised_output\", \"type\": \"LATENT\", \"links\": null, \"shape\": 3}], \"properties\": {\"Node name for S&R\": \"SamplerCustomAdvanced\"}, \"color\": \"#322\", \"bgcolor\": \"#533\"}, {\"id\": 51, \"type\": \"LoraLoader\", \"pos\": [-118, 430], \"size\": {\"0\": 462.208251953125, \"1\": 134.61793518066406}, \"flags\": {}, \"order\": 17, \"mode\": 0, \"inputs\": [{\"name\": \"model\", \"type\": \"MODEL\", \"link\": 252}, {\"name\": \"clip\", \"type\": \"CLIP\", \"link\": 127}], \"outputs\": [{\"name\": \"MODEL\", \"type\": \"MODEL\", \"links\": [125], \"slot_index\": 0, \"shape\": 3}, {\"name\": \"CLIP\", \"type\": \"CLIP\", \"links\": [128], \"slot_index\": 1, \"shape\": 3}], \"properties\": {\"Node name for S&R\": \"LoraLoader\"}, \"widgets_values\": [\"flux1\\\\realism_lora_comfy flux_converted.safetensors\", 0.7000000000000001, 1]}, {\"id\": 98, \"type\": \"CLIPTextEncode\", \"pos\": [380, 195], \"size\": [484.5240239151153, 225.88926295393372], \"flags\": {}, \"order\": 33, \"mode\": 0, \"inputs\": [{\"name\": \"clip\", \"type\": \"CLIP\", \"link\": 211}], \"outputs\": [{\"name\": \"CONDITIONING\", \"type\": \"CONDITIONING\", \"links\": [213, 214], \"slot_index\": 0, \"shape\": 3}], \"properties\": {\"Node name for S&R\": \"CLIPTextEncode\"}, \"widgets_values\": [\"A voluptuous Viking shieldmaiden stands alone on a windswept cliff, a majestic raven perched on her shoulder. Her expression is fierce and unyielding, with her eyes locked on the distant horizon. Her armor is detailed with Nordic patterns, and a fur mantle rests on her shoulders, with the raven\\u2019s feathers blending into the fur. She holds a spear in one hand, its tip gleaming in the cold light, and her other hand rests on the raven, as if drawing strength from the creature. The sky above is cloudy, with rays of light breaking through, casting an ethereal glow on the scene. Standing with eyes closed, hands together in a prayer-like gesture, as she honors the dead.\\n\\n\\n\"]}], \"links\": [[19, 16, 0, 13, 2, \"SAMPLER\"], [24, 13, 0, 8, 0, \"LATENT\"], [37, 25, 0, 13, 0, \"NOISE\"], [42, 26, 0, 22, 1, \"CONDITIONING\"], [54, 30, 0, 22, 0, \"MODEL\"], [112, 34, 0, 27, 0, \"INT\"], [113, 35, 0, 27, 1, \"INT\"], [114, 35, 0, 30, 2, \"INT\"], [115, 34, 0, 30, 1, \"INT\"], [116, 27, 0, 13, 4, \"LATENT\"], [122, 30, 0, 17, 0, \"MODEL\"], [123, 30, 0, 46, 0, \"*\"], [125, 51, 0, 52, 0, \"MODEL\"], [126, 52, 0, 30, 0, \"MODEL\"], [127, 11, 0, 51, 1, \"CLIP\"], [128, 51, 1, 52, 1, \"CLIP\"], [130, 43, 0, 42, 0, \"NOISE\"], [132, 22, 0, 53, 0, \"*\"], [133, 53, 0, 54, 0, \"*\"], [134, 54, 0, 42, 1, \"GUIDER\"], [135, 53, 0, 13, 1, \"GUIDER\"], [136, 16, 0, 55, 0, \"*\"], [138, 56, 0, 42, 2, \"SAMPLER\"], [139, 55, 0, 56, 0, \"*\"], [141, 57, 0, 58, 0, \"*\"], [143, 59, 0, 42, 4, \"LATENT\"], [144, 8, 0, 60, 0, \"IMAGE\"], [145, 60, 0, 61, 0, \"IMAGE\"], [146, 61, 0, 62, 0, \"IMAGE\"], [147, 62, 0, 41, 0, \"IMAGE\"], [149, 10, 0, 50, 0, \"*\"], [150, 46, 0, 63, 0, \"*\"], [151, 47, 0, 64, 0, \"*\"], [152, 48, 0, 65, 0, \"*\"], [153, 52, 1, 49, 0, \"*\"], [156, 49, 0, 68, 0, \"CLIP\"], [157, 68, 0, 48, 0, \"*\"], [158, 49, 0, 66, 0, \"*\"], [159, 42, 0, 69, 0, \"LATENT\"], [160, 50, 0, 67, 0, \"*\"], [161, 67, 0, 59, 1, \"VAE\"], [163, 67, 0, 70, 0, \"*\"], [164, 70, 0, 69, 1, \"VAE\"], [168, 73, 0, 74, 0, \"IMAGE\"], [172, 76, 0, 77, 0, \"UPSCALE_MODEL\"], [178, 50, 0, 8, 1, \"VAE\"], [179, 17, 0, 13, 3, \"SIGMAS\"], [180, 30, 0, 79, 0, \"MODEL\"], [181, 79, 0, 42, 3, \"SIGMAS\"], [182, 62, 0, 77, 1, \"IMAGE\"], [183, 77, 0, 75, 0, \"IMAGE\"], [184, 75, 0, 59, 0, \"IMAGE\"], [186, 70, 0, 81, 0, \"*\"], [194, 54, 0, 87, 0, \"*\"], [196, 56, 0, 88, 0, \"*\"], [209, 63, 0, 96, 0, \"*\"], [211, 49, 0, 98, 0, \"CLIP\"], [213, 98, 0, 26, 0, \"CONDITIONING\"], [214, 98, 0, 47, 0, \"*\"], [235, 113, 0, 112, 5, \"UPSCALE_MODEL\"], [236, 96, 0, 112, 1, \"MODEL\"], [237, 81, 0, 112, 4, \"VAE\"], [238, 64, 0, 112, 2, \"CONDITIONING\"], [239, 65, 0, 112, 3, \"CONDITIONING\"], [240, 112, 0, 114, 0, \"IMAGE\"], [244, 69, 0, 72, 0, \"IMAGE\"], [246, 71, 0, 73, 0, \"IMAGE\"], [249, 73, 0, 117, 0, \"IMAGE\"], [250, 72, 0, 118, 0, \"IMAGE\"], [251, 118, 0, 71, 0, \"IMAGE\"], [252, 12, 0, 51, 0, \"MODEL\"], [253, 72, 0, 112, 0, \"IMAGE\"], [256, 114, 0, 119, 0, \"IMAGE\"], [257, 119, 0, 95, 0, \"IMAGE\"]], \"groups\": [], \"config\": {}, \"extra\": {\"ds\": {\"scale\": 2.853116706110013, \"offset\": [-345.17877706329114, -128.29189520794122]}, \"groupNodes\": {}}, \"version\": 0.4, \"widget_idx_map\": {\"16\": {\"sampler_name\": 0}, \"17\": {\"scheduler\": 0}, \"25\": {\"noise_seed\": 0}, \"43\": {\"noise_seed\": 0}, \"79\": {\"scheduler\": 0}, \"112\": {\"seed\": 1, \"sampler_name\": 5, \"scheduler\": 6}}, \"seed_widgets\": {\"25\": 0, \"43\": 0, \"112\": 1}}}",
+                "steps": 30,
+                "models": [],
+                "prompt": "A voluptuous Viking shieldmaiden stands alone on a windswept cliff, a majestic raven perched on her shoulder. Her expression is fierce and unyielding, with her eyes locked on the distant horizon. Her armor is detailed with Nordic patterns, and a fur mantle rests on her shoulders, with the raven\u2019s feathers blending into the fur. She holds a spear in one hand, its tip gleaming in the cold light, and her other hand rests on the raven, as if drawing strength from the creature. The sky above is cloudy, with rays of light breaking through, casting an ethereal glow on the scene. Standing with eyes closed, hands together in a prayer-like gesture, as she honors the dead.\n\n\n",
+                "denoise": 1,
+                "sampler": "Euler",
+                "cfgScale": 6,
+                "modelIds": [],
+                "scheduler": "sgm_uniform",
+                "upscalers": [
+                    "4x_UniversalUpscalerV2-Neutral_115000_swaG.pth"
+                ],
+                "versionIds": [],
+                "controlNets": [],
+                "additionalResources": [
+                    {
+                        "name": "flux1\\realism_lora_comfy flux_converted.safetensors",
+                        "type": "lora",
+                        "strength": 0.7000000000000001,
+                        "strengthClip": 1
+                    },
+                    {
+                        "name": "flux1\\The_Pit_Pony_Flux.safetensors",
+                        "type": "lora",
+                        "strength": 0.5,
+                        "strengthClip": 1
+                    }
+                ]
+            },
+            "username": "salammy",
+            "baseModel": "Flux.1 D"
+        },
+        {
+            "id": 28540990,
+            "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/3d39f6ad-48f1-4265-bc27-b2ecbc46dede/width=832/3d39f6ad-48f1-4265-bc27-b2ecbc46dede.jpeg",
+            "hash": "UACZLvVX8wX9%2ayIpNH00x^.TV@9Zs:-o%1",
+            "width": 832,
+            "height": 1216,
+            "nsfwLevel": "None",
+            "nsfw": false,
+            "browsingLevel": 1,
+            "createdAt": "2024-09-09T12:19:35.334Z",
+            "postId": 6384749,
+            "stats": {
+                "cryCount": 20,
+                "laughCount": 37,
+                "likeCount": 176,
+                "dislikeCount": 0,
+                "heartCount": 56,
+                "commentCount": 0
+            },
+            "meta": {
+                "Size": "832x1216",
+                "seed": 3866304436,
+                "steps": 4,
+                "prompt": "The photo depicts a ginger 18yo girl beautiful holding a piece of paper that's covering her face, handwritten the text: \"buzz keeps the light on\" with a hand drawing symbol of lighting on the side. The ink is blue like a pen. The focus is on the note. The background is dark with low light. The girl is wearing a crop top (maximum ultra high definition image quality and rendering:3),  (((ultra realist style))), realist side lighting, , 8K high definition,  realist soft lighting, (amazing special effect:3.5).",
+                "sampler": "Undefined",
+                "cfgScale": 1,
+                "clipSkip": 2,
+                "resources": [],
+                "Created Date": "2024-09-09T1216:23.4857944Z",
+                "civitaiResources": [
+                    {
+                        "type": "checkpoint",
+                        "modelVersionId": 699279,
+                        "modelVersionName": "Schnell"
+                    }
+                ]
+            },
+            "username": "UnstableGinger",
+            "baseModel": "Flux.1 D"
+        },
+        {
+            "id": 28471275,
+            "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/4c4d5261-ba7a-4590-9af9-689eeecbd5c5/width=768/4c4d5261-ba7a-4590-9af9-689eeecbd5c5.jpeg",
+            "hash": "U$F7^-tQ%%WDbLs:aLWUjeobflRlR:t8RpkB",
+            "width": 768,
+            "height": 512,
+            "nsfwLevel": "None",
+            "nsfw": false,
+            "browsingLevel": 1,
+            "createdAt": "2024-09-09T01:51:27.102Z",
+            "postId": 6369478,
+            "stats": {
+                "cryCount": 13,
+                "laughCount": 20,
+                "likeCount": 211,
+                "dislikeCount": 0,
+                "heartCount": 45,
+                "commentCount": 0
+            },
+            "meta": {
+                "Size": "768x512",
+                "seed": 1508440545,
+                "steps": 25,
+                "prompt": "Green fantasy sky with blue clouds",
+                "sampler": "DPM++ 2M Karras",
+                "cfgScale": 7,
+                "clipSkip": 2,
+                "resources": [],
+                "Created Date": "2024-09-09T0150:50.8411315Z",
+                "civitaiResources": [
+                    {
+                        "type": "checkpoint",
+                        "modelVersionId": 119057,
+                        "modelVersionName": "Meina V11"
+                    }
+                ]
+            },
+            "username": null,
+            "baseModel": "SD 1.5"
+        },
+        {
+            "id": 27447143,
+            "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/84ce912a-c694-42f7-b71e-7599bb20c041/width=832/84ce912a-c694-42f7-b71e-7599bb20c041.jpeg",
+            "hash": "UW9v8xgNHXaL*JogH@S4-moeIVV@w{f+RjWB",
+            "width": 832,
+            "height": 1216,
+            "nsfwLevel": "None",
+            "nsfw": false,
+            "browsingLevel": 1,
+            "createdAt": "2024-09-02T20:55:57.006Z",
+            "postId": 6137939,
+            "stats": {
+                "cryCount": 0,
+                "laughCount": 1,
+                "likeCount": 233,
+                "dislikeCount": 0,
+                "heartCount": 55,
+                "commentCount": 1
+            },
+            "meta": {
+                "Size": "832x1216",
+                "seed": 2550456161,
+                "steps": 40,
+                "prompt": "painted world, underwater scene of a figure in steampunk diving suit slowly descending into a extremely colorful coral reef, curious tropical fish circle around the air bubbles rising from the diver, below many sea creatures with glowing eyes can be seen peeking out from among the corals looking up at the diver",
+                "sampler": "Undefined",
+                "cfgScale": 3,
+                "clipSkip": 2,
+                "resources": [],
+                "Created Date": "2024-09-02T2051:15.7326845Z",
+                "civitaiResources": [
+                    {
+                        "type": "checkpoint",
+                        "modelVersionId": 691639,
+                        "modelVersionName": "Dev"
+                    },
+                    {
+                        "type": "lora",
+                        "weight": 0.8,
+                        "modelVersionId": 796163,
+                        "modelVersionName": "Flux V2"
+                    }
+                ]
+            },
+            "username": "kastakanin",
+            "baseModel": "Flux.1 D"
+        },
+        {
+            "id": 26172943,
+            "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/4b67d4f6-b00b-4029-9c6b-bd9a1e3912b7/width=864/4b67d4f6-b00b-4029-9c6b-bd9a1e3912b7.jpeg",
+            "hash": "UEINKp03Y4$%}rM|FdOYEzo}TJv~NHEj$%wI",
+            "width": 864,
+            "height": 1152,
+            "nsfwLevel": "None",
+            "nsfw": false,
+            "browsingLevel": 1,
+            "createdAt": "2024-08-26T02:39:39.193Z",
+            "postId": 5849913,
+            "stats": {
+                "cryCount": 6,
+                "laughCount": 21,
+                "likeCount": 189,
+                "dislikeCount": 0,
+                "heartCount": 73,
+                "commentCount": 0
+            },
+            "meta": {
+                "RNG": "NV",
+                "VAE": "sdxl_vae.safetensors",
+                "Size": "864x1152",
+                "seed": 2251513947,
+                "Model": "autismmixSDXL_autismmixPony",
+                "steps": 30,
+                "hashes": {
+                    "vae": "63aeecb90f",
+                    "model": "821aa5537f",
+                    "lora:bl00mXLP": "020f042f6414"
+                },
+                "prompt": "score_9, score_8_up, score_7_up, score_6_up, score_5_up,   <lora:bl00mXLP:1> bl00m, 1girl, long hair, solo, blue eyes, wings, orange hair",
+                "Version": "v1.10.1",
+                "sampler": "Euler a",
+                "cfgScale": 7,
+                "clipSkip": 2,
+                "resources": [
+                    {
+                        "hash": "020f042f6414",
+                        "name": "bl00mXLP",
+                        "type": "lora",
+                        "weight": 1
+                    },
+                    {
+                        "hash": "821aa5537f",
+                        "name": "autismmixSDXL_autismmixPony",
+                        "type": "model"
+                    }
+                ],
+                "Model hash": "821aa5537f",
+                "Schedule type": "Automatic",
+                "negativePrompt": "watermark, signature, artist name, twitter username,",
+                "ADetailer model": "face_yolov8n.pt",
+                "ADetailer version": "24.8.0",
+                "ADetailer mask blur": "4",
+                "ADetailer confidence": "0.3",
+                "ADetailer dilate erode": "4",
+                "ADetailer inpaint padding": "32",
+                "ADetailer denoising strength": "0.4",
+                "ADetailer inpaint only masked": "True"
+            },
+            "username": "freckledvixon",
+            "baseModel": "Pony"
+        },
+        {
+            "id": 26020644,
+            "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/bc6611df-d833-451a-ae78-6172dc9b37f3/width=1800/bc6611df-d833-451a-ae78-6172dc9b37f3.jpeg",
+            "hash": "UGD9rF00?J%M.9Z}NGtS_44nogtRx^xbjD%N",
+            "width": 3712,
+            "height": 4928,
+            "nsfwLevel": "None",
+            "nsfw": false,
+            "browsingLevel": 1,
+            "createdAt": "2024-08-25T04:38:06.279Z",
+            "postId": 5816729,
+            "stats": {
+                "cryCount": 4,
+                "laughCount": 0,
+                "likeCount": 229,
+                "dislikeCount": 0,
+                "heartCount": 56,
+                "commentCount": 1
+            },
+            "meta": null,
+            "username": "DeepDemiurge",
+            "baseModel": ""
+        },
+        {
+            "id": 25157102,
+            "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/4addb8ac-ce3d-424d-8757-eba0fd773d7d/width=832/4addb8ac-ce3d-424d-8757-eba0fd773d7d.jpeg",
+            "hash": "U47o0j4TAv?w%xRFRf.99;Dz-;NMcqQ*OEo#",
+            "width": 832,
+            "height": 1216,
+            "nsfwLevel": "None",
+            "nsfw": false,
+            "browsingLevel": 1,
+            "createdAt": "2024-08-19T21:17:35.202Z",
+            "postId": 5621824,
+            "stats": {
+                "cryCount": 0,
+                "laughCount": 4,
+                "likeCount": 221,
+                "dislikeCount": 0,
+                "heartCount": 64,
+                "commentCount": 1
+            },
+            "meta": null,
+            "username": "greghorfen394",
+            "baseModel": "Flux.1 D"
+        },
+        {
+            "id": 24845721,
+            "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/43fffcce-eec8-4d02-bd9e-50c3d895a6c5/width=832/43fffcce-eec8-4d02-bd9e-50c3d895a6c5.jpeg",
+            "hash": "UCBWJH?Ht8Io~p-ot7Ip%Ms:RjRjxYWVRjt6",
+            "width": 832,
+            "height": 1216,
+            "nsfwLevel": "None",
+            "nsfw": false,
+            "browsingLevel": 1,
+            "createdAt": "2024-08-18T01:59:44.122Z",
+            "postId": 5551850,
+            "stats": {
+                "cryCount": 6,
+                "laughCount": 21,
+                "likeCount": 213,
+                "dislikeCount": 0,
+                "heartCount": 49,
+                "commentCount": 0
+            },
+            "meta": {
+                "Size": "832x1216",
+                "seed": 3581247629,
+                "steps": 42,
+                "prompt": "*Channel_42* *\u4e2d*  \n *Postapocalyptic* *Ruins*\n*Rough* *Rocky* *Ramparts* *Undulating* *Grass* *Classical* *Nostalgia* \n*Shutting Down*\n*Going Dark*\n*Offline*",
+                "sampler": "DPM++ 2M Karras",
+                "cfgScale": 4.2,
+                "clipSkip": 2,
+                "resources": [],
+                "Created Date": "2024-08-18T0146:04.1347915Z",
+                "negativePrompt": "*I* *Do* *Not* *Use* *Negative* *Prompts*",
+                "civitaiResources": [
+                    {
+                        "type": "checkpoint",
+                        "modelVersionId": 289591,
+                        "modelVersionName": "v1.1"
+                    },
+                    {
+                        "type": "lora",
+                        "weight": 0.42,
+                        "modelVersionId": 471526,
+                        "modelVersionName": "Channel_42 - Home Edition"
+                    },
+                    {
+                        "type": "embed",
+                        "modelVersionId": 106916,
+                        "modelVersionName": "v1.0"
+                    }
+                ]
+            },
+            "username": "Channel_42",
+            "baseModel": "SDXL 1.0"
+        },
+        {
+            "id": 24502253,
+            "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/a677fb56-af5f-4494-9b6d-2560b6b35b9b/width=1216/a677fb56-af5f-4494-9b6d-2560b6b35b9b.jpeg",
+            "hash": "U7A]]I00Ek-p~pMxRlWVD%xvRjRQDj-:Rjf6",
+            "width": 1216,
+            "height": 832,
+            "nsfwLevel": "None",
+            "nsfw": false,
+            "browsingLevel": 1,
+            "createdAt": "2024-08-16T00:30:20.916Z",
+            "postId": 5474239,
+            "stats": {
+                "cryCount": 10,
+                "laughCount": 29,
+                "likeCount": 177,
+                "dislikeCount": 0,
+                "heartCount": 73,
+                "commentCount": 0
+            },
+            "meta": {
+                "Size": "1216x832",
+                "seed": 3312076773,
+                "steps": 40,
+                "prompt": "RAW photo of a very detailed reflective guitar with whimsical elements, dark studio, magical glowing podium, the rom is dark, only light of source is the guitar, reflective enviroment, spot lights, fantasy style, 90% black and 10% gold colors, big white diamonds on the guitar, strong depth of field, darkness, dramatic light, dusty black theme, intricate details, ultra sharp, exquisite detail, flawless composition, vivid colors, masterpiece, exciting background,  timeless elegant and Exquisite Copper Ornaments",
+                "sampler": "DPM++ 2M Karras",
+                "cfgScale": 7,
+                "clipSkip": 2,
+                "resources": [],
+                "Created Date": "2024-08-15T2349:16.2473862Z",
+                "civitaiResources": [
+                    {
+                        "type": "checkpoint",
+                        "modelVersionId": 128078,
+                        "modelVersionName": "v1.0 VAE fix"
+                    },
+                    {
+                        "type": "lora",
+                        "weight": 1,
+                        "modelVersionId": 701872,
+                        "modelVersionName": "0.1 Manuka SDXL alpha"
+                    },
+                    {
+                        "type": "vae",
+                        "weight": 1,
+                        "modelVersionId": 333245,
+                        "modelVersionName": "SDXL-VAE"
+                    }
+                ]
+            },
+            "username": "HyperActive84",
+            "baseModel": "SDXL 1.0"
+        },
+        {
+            "id": 24495296,
+            "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/e73e6c2f-bd57-49cc-94b6-e1d866a1e28a/width=832/e73e6c2f-bd57-49cc-94b6-e1d866a1e28a.jpeg",
+            "hash": "U38|9P?GZ$030=xaV=},^%^O0#0h4=0h^i^i",
+            "width": 832,
+            "height": 1216,
+            "nsfwLevel": "None",
+            "nsfw": false,
+            "browsingLevel": 1,
+            "createdAt": "2024-08-15T23:11:05.127Z",
+            "postId": 5472598,
+            "stats": {
+                "cryCount": 4,
+                "laughCount": 18,
+                "likeCount": 172,
+                "dislikeCount": 0,
+                "heartCount": 95,
+                "commentCount": 0
+            },
+            "meta": {
+                "Size": "832x1216",
+                "seed": 4240354255,
+                "steps": 50,
+                "prompt": "(anime, masterpiece, intricate:1.3), (best quality, hires textures, high detail:1.2), (4k),(incredibly detailed:1.4), perfect anatomy, graceful face, slim, big breasts, constricted waist, nice body, lips, arrogant look, villain, 1woman, evilish smile, high pointed nose, (nostrils:1.3), neatly, angry, 25 y/o\nblack eyes, bob hair, black hair, \npillows, drinking wine, at night, fire particles, angle, black ultra-thin stockings",
+                "sampler": "DPM++ 2M Karras",
+                "cfgScale": 6,
+                "clipSkip": 2,
+                "resources": [],
+                "Created Date": "2024-08-14T0026:02.6651378Z",
+                "negativePrompt": "(worst quality, low quality:1.4), (illustration, 3d, 3d render, painting1.2), disfigured, mutation, bad anatomy, warped hands, long fingers, twisted body, many fingers, redness of female genitals,, corner, pubic hair, multiple cuts, Restricted hat, hat, float, trousers",
+                "civitaiResources": [
+                    {
+                        "type": "checkpoint",
+                        "modelVersionId": 303526,
+                        "modelVersionName": "v1.0"
+                    },
+                    {
+                        "type": "lora",
+                        "weight": 0.9,
+                        "modelVersionId": 129711,
+                        "modelVersionName": "v1.0"
+                    },
+                    {
+                        "type": "embed",
+                        "modelVersionId": 250708,
+                        "modelVersionName": "safe_pos"
+                    },
+                    {
+                        "type": "embed",
+                        "modelVersionId": 250712,
+                        "modelVersionName": "safe_neg"
+                    },
+                    {
+                        "type": "embed",
+                        "modelVersionId": 106916,
+                        "modelVersionName": "v1.0"
+                    }
+                ]
+            },
+            "username": "Misuk",
+            "baseModel": "SDXL 1.0"
+        },
+        {
+            "id": 24344126,
+            "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/7261f0ab-1398-4105-94c5-c6220e0d980b/width=1248/7261f0ab-1398-4105-94c5-c6220e0d980b.jpeg",
+            "hash": "UUJa_._NE1~pyDyDNINHo}S$ozX89ZNGozoz",
+            "width": 1248,
+            "height": 1872,
+            "nsfwLevel": "None",
+            "nsfw": false,
+            "browsingLevel": 1,
+            "createdAt": "2024-08-15T00:40:39.925Z",
+            "postId": 5436919,
+            "stats": {
+                "cryCount": 17,
+                "laughCount": 14,
+                "likeCount": 184,
+                "dislikeCount": 0,
+                "heartCount": 73,
+                "commentCount": 0
+            },
+            "meta": {
+                "RNG": "CPU",
+                "VAE": "sdxl_vae.safetensors",
+                "Size": "832x1248",
+                "seed": 1943514288,
+                "Model": "clampdxl_v30",
+                "steps": 28,
+                "hashes": {
+                    "vae": "63aeecb90f",
+                    "model": "d4bbd81581",
+                    "lora:pkmnmarley-pdxl-nvwls-v1-000006": "747b1c03e6f6"
+                },
+                "prompt": "score_9, score_8_up, score_7_up, score_6_up, source_anime, 1girl, solo,  <lora:pkmnmarley-pdxl-nvwls-v1-000006:1> pmMly, black hair, short hair, hair bow, white bow, black dress, clothing cutout, frilled dress, sleeveless, detached sleeves, black pantyhose, black boots, from side, crossed arms, looking at you, blush, closed eyes, medium breasts, city",
+                "Version": "f0.0.20.1dev-v1.10.0RC-latest-685-gf033e578",
+                "sampler": "Euler a",
+                "cfgScale": 7,
+                "resources": [
+                    {
+                        "hash": "747b1c03e6f6",
+                        "name": "pkmnmarley-pdxl-nvwls-v1-000006",
+                        "type": "lora",
+                        "weight": 1
+                    },
+                    {
+                        "hash": "d4bbd81581",
+                        "name": "clampdxl_v30",
+                        "type": "model"
+                    }
+                ],
+                "Model hash": "d4bbd81581",
+                "Hires steps": "10",
+                "Hires upscale": "1.5",
+                "Schedule type": "Automatic",
+                "Hires upscaler": "4x-AnimeSharp",
+                "negativePrompt": "3d, monochrome",
+                "ADetailer model": "face_yolov8n.pt",
+                "ADetailer version": "24.4.2",
+                "Denoising strength": "0.5",
+                "ADetailer mask blur": "4",
+                "ADetailer confidence": "0.3",
+                "ADetailer dilate erode": "4",
+                "ADetailer inpaint padding": "32",
+                "ADetailer denoising strength": "0.4",
+                "ADetailer inpaint only masked": "True"
+            },
+            "username": "novowels",
+            "baseModel": "Pony"
+        },
+        {
+            "id": 21924209,
+            "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/bfbb55c9-dfea-4335-a6f8-c2bb4d017d56/width=1248/bfbb55c9-dfea-4335-a6f8-c2bb4d017d56.jpeg",
+            "hash": "UBI}Fvt-W6-C?]JC%in3Qk^OXVi]5A%KVVo~",
+            "width": 1248,
+            "height": 1872,
+            "nsfwLevel": "None",
+            "nsfw": false,
+            "browsingLevel": 1,
+            "createdAt": "2024-07-30T00:19:18.464Z",
+            "postId": 4888116,
+            "stats": {
+                "cryCount": 2,
+                "laughCount": 12,
+                "likeCount": 188,
+                "dislikeCount": 0,
+                "heartCount": 87,
+                "commentCount": 0
+            },
+            "meta": {
+                "RNG": "CPU",
+                "VAE": "sdxl_vae.safetensors",
+                "Size": "832x1248",
+                "seed": 136980187,
+                "Model": "hosekiLustrousmixPony_v10",
+                "steps": 28,
+                "hashes": {
+                    "vae": "63aeecb90f",
+                    "model": "182c96501c",
+                    "lora:ueharaayaka-pdxl-nvwls-v1-000006": "661ebd35d931"
+                },
+                "prompt": "score_9, score_8_up, score_7_up, score_6_up, source_anime, 1girl, solo,  <lora:ueharaayaka-pdxl-nvwls-v1-000006:1> ueaya, brown hair, hair bun, tan, hairclip, blue sports bra, blue shorts, shiny skin, indoors, sitting, holding dumbbell, sweat, serious",
+                "Version": "f0.0.20.1dev-v1.10.0RC-latest-685-gf033e578",
+                "sampler": "Euler a",
+                "cfgScale": 7,
+                "resources": [
+                    {
+                        "hash": "661ebd35d931",
+                        "name": "ueharaayaka-pdxl-nvwls-v1-000006",
+                        "type": "lora",
+                        "weight": 1
+                    },
+                    {
+                        "hash": "182c96501c",
+                        "name": "hosekiLustrousmixPony_v10",
+                        "type": "model"
+                    }
+                ],
+                "Model hash": "182c96501c",
+                "Hires steps": "10",
+                "Hires upscale": "1.5",
+                "Schedule type": "Automatic",
+                "Hires upscaler": "4x-AnimeSharp",
+                "negativePrompt": "monochrome",
+                "ADetailer model": "face_yolov8n.pt",
+                "ADetailer version": "24.4.2",
+                "Denoising strength": "0.5",
+                "ADetailer mask blur": "4",
+                "ADetailer confidence": "0.3",
+                "ADetailer dilate erode": "4",
+                "ADetailer inpaint padding": "32",
+                "ADetailer denoising strength": "0.4",
+                "ADetailer inpaint only masked": "True"
+            },
+            "username": "novowels",
+            "baseModel": "Pony"
+        },
+        {
+            "id": 21622550,
+            "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/6e67b263-6327-4f10-80ce-ed52dc092979/width=1536/6e67b263-6327-4f10-80ce-ed52dc092979.jpeg",
+            "hash": "USDTCUi_w]M{_NS#s,RQ%gS4t7W;x]o0%2of",
+            "width": 1536,
+            "height": 1536,
+            "nsfwLevel": "None",
+            "nsfw": false,
+            "browsingLevel": 1,
+            "createdAt": "2024-07-27T18:21:54.883Z",
+            "postId": 4819187,
+            "stats": {
+                "cryCount": 7,
+                "laughCount": 13,
+                "likeCount": 199,
+                "dislikeCount": 0,
+                "heartCount": 70,
+                "commentCount": 1
+            },
+            "meta": {
+                "seed": 1260609020,
+                "vaes": [],
+                "Model": "urn:air:sdxl:checkpoint:civitai:376450@665034",
+                "steps": 25,
+                "models": [
+                    "urn:air:sdxl:checkpoint:civitai:376450@665034"
+                ],
+                "prompt": "score_9, score_8_up, score_7_up, 8k uhd, masterpiece, best quality, high quality, ultra-detailed, (highly detailed), OverallDetail, Expressiveh, (())\n,\n((( No human )))\n,\n(((  )))\n,\n((( Port1660mb, outdoors, ocean, sailing ship, pier, ship, watercraft )))\n,\n((  ))\n,\n((( Bird )))\n,\n((( ))) ",
+                "denoise": 0.4,
+                "sampler": "Euler a",
+                "cfgScale": 7,
+                "modelIds": [],
+                "scheduler": "normal",
+                "upscalers": [
+                    "urn:air:multi:upscaler:civitai:147759@164821"
+                ],
+                "versionIds": [],
+                "controlNets": [],
+                "negativePrompt": "(((  )))",
+                "civitaiResources": [
+                    {
+                        "type": "checkpoint",
+                        "modelVersionId": 665034
+                    },
+                    {
+                        "type": "upscaler",
+                        "modelVersionId": 164821
+                    },
+                    {
+                        "type": "lora",
+                        "weight": 1,
+                        "modelVersionId": 676309
+                    }
+                ],
+                "additionalResources": [
+                    {
+                        "name": "urn:air:sdxl:lora:civitai:605035@676309",
+                        "type": "lora",
+                        "strength": 1,
+                        "strengthClip": 1
+                    }
+                ]
+            },
+            "username": "MisterBones",
+            "baseModel": "Pony"
+        },
+        {
+            "id": 21579564,
+            "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/cee17ec1-b800-4c16-95c6-fd407f7e35c4/width=1344/cee17ec1-b800-4c16-95c6-fd407f7e35c4.jpeg",
+            "hash": "UAF5~?004T?Z00~U9D~p00?a_28|ISD#?ZD%",
+            "width": 1344,
+            "height": 1728,
+            "nsfwLevel": "None",
+            "nsfw": false,
+            "browsingLevel": 1,
+            "createdAt": "2024-07-27T11:03:52.370Z",
+            "postId": 4810200,
+            "stats": {
+                "cryCount": 9,
+                "laughCount": 31,
+                "likeCount": 197,
+                "dislikeCount": 0,
+                "heartCount": 52,
+                "commentCount": 0
+            },
+            "meta": {
+                "RNG": "NV",
+                "VAE": "xlVAEC_f051.safetensors",
+                "Size": "896x1152",
+                "seed": 3724651489,
+                "Model": "realcartoonXL_v6",
+                "steps": 20,
+                "hashes": {
+                    "vae": "6aa6483178",
+                    "model": "d370e2fbaa",
+                    "lora:SDXLHighDetail_v5": "b6c758219f29"
+                },
+                "prompt": "Photorealistic, a skeleton performing the Smooth Criminal lean on a stage in front of an enthusiastic audience. The skeleton is angled forward with one leg extended, wearing a white suit and fedora. The background features neon lights, fog effects, and a cheering crowd. The lighting is bright and colorful, with spotlights focused on the skeleton. The camera shot is a wide shot, capturing the skeleton's lean and the detailed stage and audience.\n <lora:SDXLHighDetail_v5:1>",
+                "Version": "f0.0.17v1.8.0rc-latest-276-g29be1da7",
+                "sampler": "Euler a",
+                "cfgScale": 7,
+                "resources": [
+                    {
+                        "hash": "b6c758219f29",
+                        "name": "SDXLHighDetail_v5",
+                        "type": "lora",
+                        "weight": 1
+                    },
+                    {
+                        "hash": "d370e2fbaa",
+                        "name": "realcartoonXL_v6",
+                        "type": "model"
+                    }
+                ],
+                "Model hash": "d370e2fbaa",
+                "Extra noise": "0.15",
+                "Hires upscale": "1.5",
+                "Hires upscaler": "4x-UltraSharp",
+                "negativePrompt": "blurry, low quality, overexposed, underexposed, distorted, artifacts, text, watermark, crowded environment, poor lighting, flat colors, lack of detail, distorted anatomy, plain background, incorrect proportions\nwrong hand,  3d,   sketch, painting,",
+                "Denoising strength": "0.5"
+            },
+            "username": "salammy",
+            "baseModel": "SDXL 1.0"
+        },
+        {
+            "id": 21370476,
+            "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/b5fe119a-afda-496e-b401-aa1db29d0f92/width=832/b5fe119a-afda-496e-b401-aa1db29d0f92.jpeg",
+            "hash": "UF9t=W%h-;xt*0.8.8xuxutSxvt7WBW?M{WC",
+            "width": 832,
+            "height": 1216,
+            "nsfwLevel": "None",
+            "nsfw": false,
+            "browsingLevel": 1,
+            "createdAt": "2024-07-25T23:55:35.746Z",
+            "postId": 4764814,
+            "stats": {
+                "cryCount": 3,
+                "laughCount": 15,
+                "likeCount": 217,
+                "dislikeCount": 0,
+                "heartCount": 54,
+                "commentCount": 0
+            },
+            "meta": {
+                "Size": "832x1216",
+                "seed": 1203793331,
+                "steps": 42,
+                "prompt": "*Channel_42* *\u4e2d* *Mountainside*\n*Foreboding* *Forbidden* *Fiberoptic* *Runic* *Carvings* *Crystalized* *Lake* *Abandoned* *Shrine* *Glittering* *Reflective* *Temple* *Altar* *Offering* *Hourglass*",
+                "sampler": "DPM++ 2M Karras",
+                "cfgScale": 4.2,
+                "clipSkip": 2,
+                "resources": [],
+                "Created Date": "2024-07-09T1801:15.2880567Z",
+                "negativePrompt": "*I* *Do* *Not* *Use* *Negative* *Prompts*",
+                "civitaiResources": [
+                    {
+                        "type": "checkpoint",
+                        "modelVersionId": 182077,
+                        "modelVersionName": "v3"
+                    },
+                    {
+                        "type": "embed",
+                        "modelVersionId": 106916,
+                        "modelVersionName": "v1.0"
+                    }
+                ]
+            },
+            "username": "Channel_42",
+            "baseModel": "SDXL 1.0"
+        },
+        {
+            "id": 19582162,
+            "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/d58dd69e-8d8f-4758-90c2-33b59e29aa4e/width=832/d58dd69e-8d8f-4758-90c2-33b59e29aa4e.jpeg",
+            "hash": "UMH1e_-n0gRk~C%0soRkNLoM%1t6IWRkWVxa",
+            "width": 832,
+            "height": 1216,
+            "nsfwLevel": "None",
+            "nsfw": false,
+            "browsingLevel": 1,
+            "createdAt": "2024-07-13T01:53:28.190Z",
+            "postId": 4373806,
+            "stats": {
+                "cryCount": 10,
+                "laughCount": 9,
+                "likeCount": 223,
+                "dislikeCount": 0,
+                "heartCount": 47,
+                "commentCount": 0
+            },
+            "meta": {
+                "Size": "832x1216",
+                "seed": 1883158294,
+                "steps": 32,
+                "prompt": "detailed background,( Calm spring night landscape), amongst lush greenery, beautiful view, Water lilies in full bloom, Water lilies, Unexplored, early morning, sunrise sky, beautiful clouds, dappled sunlight, beautiful, Tranquil Lake, Walkway, petals dancing in the wind, depth of field, masterpiece, best quality, ultra-detailed, very aesthetic, illustration, perfect composition, intricate details, absurdres, moody lighting, wisps of light, no humans,",
+                "sampler": "DPM++ 2M Karras",
+                "cfgScale": 6,
+                "clipSkip": 2,
+                "resources": [],
+                "Created Date": "2024-07-13T0147:42.4108009Z",
+                "negativePrompt": "extra digit, fewer digits, cropped, worst quality, low quality, normal quality, very displeasing,  blurry, artist name,",
+                "civitaiResources": [
+                    {
+                        "type": "checkpoint",
+                        "modelVersionId": 403131,
+                        "modelVersionName": "v3.1"
+                    },
+                    {
+                        "type": "lora",
+                        "weight": 0.7,
+                        "modelVersionId": 135867,
+                        "modelVersionName": "v1.0"
+                    }
+                ]
+            },
+            "username": "yuyusikiAI",
+            "baseModel": "SDXL 1.0"
+        },
+        {
+            "id": 19312948,
+            "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/e504854f-615f-49a7-b5db-10fafad1c1fd/width=832/e504854f-615f-49a7-b5db-10fafad1c1fd.jpeg",
+            "hash": "UEFgqewc01T1.AnivgXT0%In$Kxu0h$LoFNb",
+            "width": 832,
+            "height": 1216,
+            "nsfwLevel": "None",
+            "nsfw": false,
+            "browsingLevel": 1,
+            "createdAt": "2024-07-11T02:33:46.629Z",
+            "postId": 4315747,
+            "stats": {
+                "cryCount": 5,
+                "laughCount": 0,
+                "likeCount": 239,
+                "dislikeCount": 0,
+                "heartCount": 45,
+                "commentCount": 0
+            },
+            "meta": {
+                "Size": "832x1216",
+                "seed": 661433592,
+                "steps": 24,
+                "prompt": "masterpiece, An oil painting of an alien planet, galaxy in background, vibrant colors, best quality, highly detailed",
+                "sampler": "DPM++ 2M Karras",
+                "cfgScale": 4,
+                "clipSkip": 2,
+                "resources": [],
+                "Created Date": "2024-07-11T0232:00.4394108Z",
+                "negativePrompt": "(worst quality, low quality, normal quality, lowres, low details, oversaturated, undersaturated, overexposed, underexposed, grayscale, bw, bad photo, bad photography, bad art:1.4), (mutated hands, poorly drawn hands, poorly drawn face, extra limbs, missing arms, missing legs, extra arms, extra legs, fused fingers, too many fingers, extra fingers, deformed iris, deformed pupils, long neck), (watermark, signature, text font, username, error, logo, words, letters, digits, autograph, trademark, name:1.2), (blur, blurry, grainy), morbid, ugly, asymmetrical, mutated, malformed, mutilated, poorly lit, bad shadow, draft, cropped, out of frame, cut off, censored, jpeg artifacts, out of focus, glitch, duplicate, (bad hands, bad anatomy, bad proportions, bad body, bad face, bad teeth, bad arms, bad legs, deformities:1.3), (airbrushed, cartoon, anime, semi-realistic, cgi, render, blender, digital art, manga, amateur:1.3), (3D, 3D Game, 3D Game Scene, 3D Character:1.1)",
+                "civitaiResources": [
+                    {
+                        "type": "checkpoint",
+                        "modelVersionId": 563988,
+                        "modelVersionName": "v8.0"
+                    },
+                    {
+                        "type": "lora",
+                        "weight": 0.5,
+                        "modelVersionId": 581797,
+                        "modelVersionName": "CosmoWave Z3 SDXL"
+                    },
+                    {
+                        "type": "embed",
+                        "modelVersionId": 106916,
+                        "modelVersionName": "v1.0"
+                    }
+                ]
+            },
+            "username": "unfazedanomaly964",
+            "baseModel": "SDXL 1.0"
+        },
+        {
+            "id": 17767774,
+            "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/b19323e8-0050-490d-8412-b7157fb7ae67/width=832/b19323e8-0050-490d-8412-b7157fb7ae67.jpeg",
+            "hash": "UFC$vD9G-;aK%%9Z%LjE4:wbIASh4n-oD%oy",
+            "width": 832,
+            "height": 1216,
+            "nsfwLevel": "None",
+            "nsfw": false,
+            "browsingLevel": 1,
+            "createdAt": "2024-06-30T00:40:17.099Z",
+            "postId": 3976374,
+            "stats": {
+                "cryCount": 2,
+                "laughCount": 12,
+                "likeCount": 241,
+                "dislikeCount": 0,
+                "heartCount": 34,
+                "commentCount": 0
+            },
+            "meta": {
+                "Size": "832x1216",
+                "seed": 945684407,
+                "steps": 42,
+                "prompt": "*Channel_42* *\u4e2d* *Broadcasting* *Station_42* \n*Autumn* *Solstice* *Majesty* *Storm* *Irradiant* *Eventide* *Peak* *Starting up* *Going Live* *Online*",
+                "sampler": "DPM++ 2M Karras",
+                "cfgScale": 4.2,
+                "clipSkip": 2,
+                "resources": [],
+                "Created Date": "2024-06-30T0036:18.7913384Z",
+                "civitaiResources": [
+                    {
+                        "type": "checkpoint",
+                        "modelVersionId": 182077,
+                        "modelVersionName": "v3"
+                    },
+                    {
+                        "type": "lora",
+                        "weight": 1,
+                        "modelVersionId": 607297,
+                        "modelVersionName": "V1"
+                    },
+                    {
+                        "type": "embed",
+                        "modelVersionId": 106916,
+                        "modelVersionName": "v1.0"
+                    }
+                ]
+            },
+            "username": "Channel_42",
+            "baseModel": "SDXL 1.0"
+        },
+        {
+            "id": 17761659,
+            "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/422658bd-42a6-41ec-99c3-5ec3032bb223/width=832/422658bd-42a6-41ec-99c3-5ec3032bb223.jpeg",
+            "hash": "UKHK|b~p~oIU_2S4tSV@^+sooINGS1of-pNG",
+            "width": 832,
+            "height": 1248,
+            "nsfwLevel": "Soft",
+            "nsfw": true,
+            "browsingLevel": 2,
+            "createdAt": "2024-06-29T23:55:33.799Z",
+            "postId": 3975037,
+            "stats": {
+                "cryCount": 0,
+                "laughCount": 4,
+                "likeCount": 198,
+                "dislikeCount": 0,
+                "heartCount": 87,
+                "commentCount": 0
+            },
+            "meta": {
+                "RNG": "CPU",
+                "VAE": "sdxl_vae.safetensors",
+                "Size": "832x1248",
+                "seed": 3289299824,
+                "Model": "autismmixSDXL_autismmixConfetti",
+                "steps": 28,
+                "hashes": {
+                    "vae": "235745af8d",
+                    "model": "ac006fdd7e",
+                    "lora:velvetcrowe-pdxl-nvwls-v1-000005": "4772911c89f4"
+                },
+                "prompt": "score_9, score_8_up, score_7_up, score_6_up, source_anime BREAK 1girl, solo <lora:velvetcrowe-pdxl-nvwls-v1-000005:1> velvetcrowe, black hair, low-tied long hair, black choker, black shirt, short sleeves, purple sailor collar, neckerchief, pleated skirt, medium breasts, pout, blush, hallway, looking at you, holding book",
+                "Version": "v1.9.3",
+                "sampler": "Euler a",
+                "cfgScale": 7,
+                "resources": [
+                    {
+                        "hash": "4772911c89f4",
+                        "name": "velvetcrowe-pdxl-nvwls-v1-000005",
+                        "type": "lora",
+                        "weight": 1
+                    },
+                    {
+                        "hash": "ac006fdd7e",
+                        "name": "autismmixSDXL_autismmixConfetti",
+                        "type": "model"
+                    }
+                ],
+                "Model hash": "ac006fdd7e",
+                "Schedule type": "Automatic",
+                "negativePrompt": "3d, monochrome",
+                "ADetailer model": "face_yolov8n.pt",
+                "ADetailer steps": "14",
+                "ADetailer version": "24.4.2",
+                "ADetailer mask blur": "4",
+                "ADetailer confidence": "0.3",
+                "ADetailer dilate erode": "32",
+                "Downcast alphas_cumprod": "True",
+                "ADetailer inpaint padding": "32",
+                "ADetailer denoising strength": "0.4",
+                "ADetailer use separate steps": "True",
+                "ADetailer inpaint only masked": "True"
+            },
+            "username": "novowels",
+            "baseModel": "Pony"
+        },
+        {
+            "id": 17572980,
+            "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/74f685d3-0a46-4044-bd86-bf439838819d/width=832/74f685d3-0a46-4044-bd86-bf439838819d.jpeg",
+            "hash": "U9CPIp-l0f58rDVs0gT0}:={9vIV#kjEERW?",
+            "width": 832,
+            "height": 1216,
+            "nsfwLevel": "None",
+            "nsfw": false,
+            "browsingLevel": 1,
+            "createdAt": "2024-06-28T14:47:42.997Z",
+            "postId": 3934212,
+            "stats": {
+                "cryCount": 11,
+                "laughCount": 22,
+                "likeCount": 185,
+                "dislikeCount": 0,
+                "heartCount": 71,
+                "commentCount": 0
+            },
+            "meta": {
+                "Size": "832x1216",
+                "seed": 615130657,
+                "steps": 34,
+                "prompt": "[Masterpiece. Realistic. Transparent Beings. Everything in this universe is made out of sparkling glass crystals. A chess piece made of crystals. Water explosions. Transparent or silver body parts.], detailed, romantic, very inspirational, beautiful, elegant, lovely, cute, pretty, modern, epic composition, fabulous atmosphere, cinematic light, dynamic dramatic ambient, Vibrant Colors , glowing highlights, \nral-tr33brnch, Arttrttrt, extreme Long Shot, masterpiece, intricate detail, best quality, absurd resolution, Gothic, black stone with golden stripes, elegant, luxury, royal, expensive, \nStylized chess pieces. Queen chess, Chess game, chess board, luxury and golden design. Photo realistic, cinematic light, concept art. ,",
+                "sampler": "DPM++ 2M Karras",
+                "cfgScale": 7,
+                "clipSkip": 2,
+                "resources": [],
+                "Created Date": "2024-06-28T1431:18.5563588Z",
+                "negativePrompt": "score_6, score_5, score_4, pony, gaping, fcNeg, censored, furry, child, kid, chibi, 3d, monochrome",
+                "civitaiResources": [
+                    {
+                        "type": "checkpoint",
+                        "modelVersionId": 563988,
+                        "modelVersionName": "v8.0"
+                    },
+                    {
+                        "type": "vae",
+                        "weight": 1,
+                        "modelVersionId": 333245,
+                        "modelVersionName": "SDXL-VAE"
+                    },
+                    {
+                        "type": "embed",
+                        "modelVersionId": 106916,
+                        "modelVersionName": "v1.0"
+                    }
+                ]
+            },
+            "username": "HyperActive84",
+            "baseModel": "SDXL 1.0"
+        },
+        {
+            "id": 17453147,
+            "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/c4cf5b75-2592-4643-bb10-d982f17a8e56/width=832/c4cf5b75-2592-4643-bb10-d982f17a8e56.jpeg",
+            "hash": "UkIz;U9vNGs.~VbIa|NG-:R+RkoeIqofays:",
+            "width": 832,
+            "height": 1216,
+            "nsfwLevel": "None",
+            "nsfw": false,
+            "browsingLevel": 1,
+            "createdAt": "2024-06-27T18:10:01.809Z",
+            "postId": 3909190,
+            "stats": {
+                "cryCount": 9,
+                "laughCount": 16,
+                "likeCount": 199,
+                "dislikeCount": 0,
+                "heartCount": 65,
+                "commentCount": 0
+            },
+            "meta": null,
+            "username": "Yoho777",
+            "baseModel": "SDXL 1.0"
+        },
+        {
+            "id": 14386926,
+            "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/0375741a-02f5-4500-b979-9e8e23864223/width=1800/0375741a-02f5-4500-b979-9e8e23864223.jpeg",
+            "hash": "U6Dvl|tT0000PXR*Zz=|0zad8wWCt,aK#Qt7",
+            "width": 2016,
+            "height": 2592,
+            "nsfwLevel": "Soft",
+            "nsfw": true,
+            "browsingLevel": 2,
+            "createdAt": "2024-06-02T19:16:34.450Z",
+            "postId": 3194404,
+            "stats": {
+                "cryCount": 25,
+                "laughCount": 33,
+                "likeCount": 165,
+                "dislikeCount": 0,
+                "heartCount": 66,
+                "commentCount": 0
+            },
+            "meta": {
+                "Size": "896x1152",
+                "seed": 3661319584,
+                "steps": 30,
+                "hashes": {
+                    "model": "67ab2fd8ec",
+                    "LORA:Kenva": "189804f733",
+                    "embed:negativeXL_D": "fff5d51ab6",
+                    "LORA:Expressive_H-000001": "7b53da0391",
+                    "LORA:Concept Art Twilight Style SDXL_LoRA_Pony Diffusion V6 XL": "2d9ee3fc65"
+                },
+                "prompt": "score_9, score_8_up, score_7_up,   solo, 1girl, elf princess, pointy ears, blue hair, braided, posing, cute pose, joyful, lace lingerie, stockings, garter belt, wavy hair, see-through sleeves, flower short dress, outdoors, romantic, garden, flowers, butterflies, moonlight, surreal, fantastical,   <lora:Concept Art Twilight Style SDXL_LoRA_Pony Diffusion V6 XL:0.8> concept art, realistic,  <lora:Expressive_H-000001:0.8>, expressiveH  <lora:Kenva:0.6>, knva",
+                "sampler": "Euler a Karras",
+                "cfgScale": 7,
+                "resources": [
+                    {
+                        "name": "Expressive_H-000001",
+                        "type": "lora",
+                        "weight": 0.8
+                    },
+                    {
+                        "name": "Kenva",
+                        "type": "lora",
+                        "weight": 0.6
+                    }
+                ],
+                "Model hash": "67ab2fd8ec",
+                "negativePrompt": "score_6, score_5, score_4, embedding:negativeXL_D, skinny, anorexic, furry, eyes closed,",
+                "ponyDiffusionV6XL_v6StartWithThisOne Version": "ComfyUI"
+            },
+            "username": "popyay",
+            "baseModel": "Pony"
+        },
+        {
+            "id": 8342370,
+            "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/9c0ea73c-810d-4465-bec8-78475cb9c3a9/width=832/9c0ea73c-810d-4465-bec8-78475cb9c3a9.jpeg",
+            "hash": "U371WWs:00j[03WV}?ax}@of0LRjIoay?Gxa",
+            "width": 832,
+            "height": 1216,
+            "nsfwLevel": "None",
+            "nsfw": false,
+            "browsingLevel": 1,
+            "createdAt": "2024-03-21T23:03:56.476Z",
+            "postId": 1805792,
+            "stats": {
+                "cryCount": 4,
+                "laughCount": 24,
+                "likeCount": 166,
+                "dislikeCount": 0,
+                "heartCount": 95,
+                "commentCount": 1
+            },
+            "meta": {
+                "Size": "832x1216",
+                "seed": 867505830,
+                "steps": 59,
+                "prompt": "Capture the heroism in the stillness of the night as the luminous bulb-headed figure stands tall atop a lofty pinnacle, casting its radiant glow upon the city below. Illuminate the darkness with your lens, revealing the silent guardian of light in the urban expanse.\n deep Blacks, very detailed, atmospheric haze, Film grain, cinematic film still, shallow depth of field, highly detailed, high budget, cinemascope, moody, epic, OverallDetail, 2000s vintage RAW photo, photorealistic, candid camera, color graded cinematic, eye catchlights, atmospheric lighting, imperfections, natural, shallow dof",
+                "sampler": "DPM++ 2M",
+                "cfgScale": 3.5,
+                "clipSkip": 2,
+                "resources": [],
+                "negativePrompt": "easynegative, bad proportions, low resolution, bad, ugly, terrible, painting, 3d, render, comic, anime, manga, unrealistic, flat, watermark, signature, worst quality, low quality, normal quality, lowres, simple background, inaccurate limb, extra fingers, fewer fingers, missing fingers, extra arms, (extra legs:1.3), inaccurate eyes, bad composition, bad anatomy, error, extra digit, fewer digits, cropped, low res, worst quality, low quality, normal quality, jpeg artifacts, extra digit, fewer digits, trademark, watermark, artist's name, username, signature, text, words, human,",
+                "civitaiResources": [
+                    {
+                        "type": "checkpoint",
+                        "modelVersionId": 162380
+                    },
+                    {
+                        "type": "embed",
+                        "weight": 1,
+                        "modelVersionId": 9208
+                    },
+                    {
+                        "type": "lora",
+                        "weight": 0.45,
+                        "modelVersionId": 152309
+                    },
+                    {
+                        "type": "lora",
+                        "weight": 0.4,
+                        "modelVersionId": 258687
+                    },
+                    {
+                        "type": "lora",
+                        "weight": 0.85,
+                        "modelVersionId": 296637
+                    },
+                    {
+                        "type": "lora",
+                        "weight": 0.7,
+                        "modelVersionId": 309330
+                    }
+                ]
+            },
+            "username": "Ajuro",
+            "baseModel": "SDXL 1.0"
+        },
+        {
+            "id": 7615188,
+            "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/8a2f33d1-53df-42d3-8794-21bdeb129453/width=1440/8a2f33d1-53df-42d3-8794-21bdeb129453.jpeg",
+            "hash": "UQFr-P9E4-%2.TMwIAo#oeRiV?tSOFRjs8tR",
+            "width": 1440,
+            "height": 1920,
+            "nsfwLevel": "None",
+            "nsfw": false,
+            "browsingLevel": 1,
+            "createdAt": "2024-03-08T07:07:56.064Z",
+            "postId": 1649308,
+            "stats": {
+                "cryCount": 9,
+                "laughCount": 29,
+                "likeCount": 159,
+                "dislikeCount": 0,
+                "heartCount": 92,
+                "commentCount": 0
+            },
+            "meta": {
+                "RNG": "CPU",
+                "Size": "960x1280",
+                "seed": 2335982367,
+                "Model": "ultima_XL",
+                "steps": 20,
+                "hashes": {
+                    "model": "ef3835110d"
+                },
+                "prompt": "a ((Long Shot of Compact Enchanted Geodesic Classic Robotic, Feathered Appendages, Bushy-Tailed, Icy Scales, Webbed Ears, )) (that's feel embarrassed) , ((look at the camera)), cave as background",
+                "Version": "v1.7.0",
+                "sampler": "DPM++ 2S a Karras",
+                "cfgScale": 4,
+                "clipSkip": 2,
+                "resources": [
+                    {
+                        "hash": "ef3835110d",
+                        "name": "ultima_XL",
+                        "type": "model"
+                    }
+                ],
+                "sv_prompt": "\"a ((Long Shot of Compact Enchanted Geodesic Classic Robotic, Feathered Appendages, Bushy-Tailed, Icy Scales, Webbed Ears, )) (that's feel embarrassed) , ((look at the camera)), cave as background\"",
+                "Model hash": "ef3835110d",
+                "Hires steps": "10",
+                "sv_negative": "$(Negative Prompt)",
+                "Hires sampler": "DPM++ 2M SDE Karras",
+                "Hires upscale": "1.5",
+                "Hires upscaler": "Latent (nearest-exact)",
+                "negativePrompt": "easynegative, low contrast",
+                "Hires CFG scale": "2",
+                "Denoising strength": "0.55"
+            },
+            "username": "nuaion",
+            "baseModel": "SDXL 1.0"
+        },
+        {
+            "id": 7419342,
+            "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/9a66f2c2-577c-49a4-a12b-6d3035720ff2/width=1024/9a66f2c2-577c-49a4-a12b-6d3035720ff2.jpeg",
+            "hash": "UNHn$+Ipy=xG-:IVbbNG9tM{mlI:?vt7wJt7",
+            "width": 1024,
+            "height": 1024,
+            "nsfwLevel": "None",
+            "nsfw": false,
+            "browsingLevel": 1,
+            "createdAt": "2024-03-04T02:00:05.839Z",
+            "postId": 1605009,
+            "stats": {
+                "cryCount": 0,
+                "laughCount": 5,
+                "likeCount": 156,
+                "dislikeCount": 0,
+                "heartCount": 128,
+                "commentCount": 0
+            },
+            "meta": {
+                "RNG": "CPU",
+                "Size": "1024x1024",
+                "seed": 2603780898,
+                "Model": "ponyDiffusionV6XL_v6StartWithThisOne",
+                "steps": 69,
+                "hashes": {
+                    "model": "67ab2fd8ec"
+                },
+                "prompt": "score_9, score_8_up, score_7_up, score_6_up, score_5_up, score_4_up,\nBREAK\nvintage, 1990s \\(style\\), \nLong exposure photo of a tiefling_demon_woman, 20 years old, closeup, awardwinning, amazing details, best quality, (red skin color), Blurred motion, streaks of light, surreal, dreamy, ghosting effect, highly detailed, pretty, fantasy, tattoo,\n(natural skin texture, hyperrealism, soft light, sharp),(close-up shot) artistic photoshoot,\n<lora:OldAnimeStyle_XL_v3:0.75>",
+                "Version": "v1.7.0",
+                "sampler": "Restart",
+                "cfgScale": 8,
+                "Pad conds": "True",
+                "resources": [
+                    {
+                        "name": "OldAnimeStyle_XL_v3",
+                        "type": "lora",
+                        "weight": 0.75
+                    },
+                    {
+                        "hash": "67ab2fd8ec",
+                        "name": "ponyDiffusionV6XL_v6StartWithThisOne",
+                        "type": "model"
+                    }
+                ],
+                "Model hash": "67ab2fd8ec",
+                "negativePrompt": "source_furry, worst quality, low quality, text, censored, deformed, bad hand, simple background,",
+                "ADetailer model": "face_yolov8s.pt",
+                "ADetailer steps": "30",
+                "ADetailer version": "24.3.0",
+                "ADetailer mask blur": "4",
+                "\"OldAnimeStyle_XL_v3": "0252ffccc53f\"",
+                "ADetailer checkpoint": "Use same checkpoint",
+                "ADetailer confidence": "0.3",
+                "ADetailer dilate erode": "4",
+                "ADetailer inpaint width": "1024",
+                "ADetailer inpaint height": "1024",
+                "ADetailer inpaint padding": "32",
+                "ADetailer denoising strength": "0.4",
+                "ADetailer use separate steps": "True",
+                "ADetailer inpaint only masked": "True",
+                "ADetailer use separate checkpoint": "True",
+                "ADetailer use inpaint width height": "True"
+            },
+            "username": "dalla1re",
+            "baseModel": "Pony"
+        },
+        {
+            "id": 6375431,
+            "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/0513b660-4384-43d1-8576-13e7476f1486/width=832/0513b660-4384-43d1-8576-13e7476f1486.jpeg",
+            "hash": "UDHUtXXA0f-P~q^*9EMxGI-:d;M{yYbbQ-IU",
+            "width": 832,
+            "height": 1136,
+            "nsfwLevel": "None",
+            "nsfw": false,
+            "browsingLevel": 1,
+            "createdAt": "2024-02-07T18:46:42.748Z",
+            "postId": 1376856,
+            "stats": {
+                "cryCount": 11,
+                "laughCount": 91,
+                "likeCount": 120,
+                "dislikeCount": 0,
+                "heartCount": 67,
+                "commentCount": 1
+            },
+            "meta": {
+                "Size": "832x1136",
+                "seed": 2830222261,
+                "Model": "albedobaseXL_v21",
+                "steps": 18,
+                "hashes": {
+                    "model": "1718b5bb2d"
+                },
+                "prompt": "portrait of a surprised cat, car explosion in the background, High detailed RAW color Photo, 8k, ral-vlntxplzn,  <lora:ral-vlntxplzn-sdxl:0.8>",
+                "Version": "v1.7.0",
+                "sampler": "DPM++ 2M Karras",
+                "cfgScale": 4.5,
+                "resources": [
+                    {
+                        "hash": "1718b5bb2d",
+                        "name": "albedobaseXL_v21",
+                        "type": "model"
+                    }
+                ],
+                "Model hash": "1718b5bb2d",
+                "negativePrompt": "blood",
+                "\"ral-vlntxplzn-sdxl": "5646707cb2d1\""
+            },
+            "username": "Tugoff",
+            "baseModel": "SDXL 1.0"
+        },
+        {
+            "id": 3290005,
+            "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/b141c23f-acc2-4aa1-ae73-b820108eefb3/width=800/b141c23f-acc2-4aa1-ae73-b820108eefb3.jpeg",
+            "hash": "UfK_I3xu%MIV^+RjRjxu~W%LR+M{xuM|Rjt7",
+            "width": 800,
+            "height": 800,
+            "nsfwLevel": "None",
+            "nsfw": false,
+            "browsingLevel": 1,
+            "createdAt": "2023-10-31T12:48:50.992Z",
+            "postId": 755212,
+            "stats": {
+                "cryCount": 0,
+                "laughCount": 0,
+                "likeCount": 289,
+                "dislikeCount": 0,
+                "heartCount": 0,
+                "commentCount": 0
+            },
+            "meta": null,
+            "username": "fryze",
+            "baseModel": null
+        },
+        {
+            "id": 690887,
+            "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/9c3b9deb-b1bb-426f-9327-6a4936b944b7/width=1800/9c3b9deb-b1bb-426f-9327-6a4936b944b7.jpeg",
+            "hash": "U9Av,-0L0h~B?vMwV@XTo#M{NG-o9wen-oX9",
+            "width": 2048,
+            "height": 3072,
+            "nsfwLevel": "None",
+            "nsfw": false,
+            "browsingLevel": 1,
+            "createdAt": "2024-02-09T14:56:49.004Z",
+            "postId": 189557,
+            "stats": {
+                "cryCount": 0,
+                "laughCount": 2,
+                "likeCount": 175,
+                "dislikeCount": 0,
+                "heartCount": 112,
+                "commentCount": 11
+            },
+            "meta": {
+                "Size": "2048x3072",
+                "seed": 3363075371,
+                "Model": "realisticVisionV20_v20",
+                "steps": 20,
+                "hashes": {
+                    "vae": "df3c506e51",
+                    "model": "c0d1994c73",
+                    "embed:advntr": "c7d60f86bf",
+                    "hypernet:dr0ne": "24bfd767b7",
+                    "embed:bad-artist": "2d35613490",
+                    "embed:bad-hands-5": "aa7651be15",
+                    "lora:epiNoiseoffset": "81680c064e",
+                    "embed:bad-artist-anime": "5f7bea8875",
+                    "lora:hipoly3DModelLora": "3be24d2e6d",
+                    "lora:3dCGStyleRealistic": "13a817d93e",
+                    "hypernet:LuisapSciFiHard": "5086c49dcd",
+                    "lora:cyberhelmetWearable": "11eb8dde45",
+                    "embed:bad_prompt_version2": "6f35e7dd81",
+                    "lora:urbanSamuraiClothing": "c7150ad13f",
+                    "hypernet:sxzBloom_sxzBloom": "33c6d07f30",
+                    "embed:ng_deepnegative_v1_75t": "54e7e4826d"
+                },
+                "prompt": "(full body, (dynamic pose), action pose), <the subject is a female/male android humanoid, in a flowing torn thick cloth cloak, dark orange metallic armor, wielding an obsidian blade, featuring hard surface designs in their gear>,<the scene is an advanced civilization, with towering structures in the background, immersed in the beautiful lights, the cityscape is a fully detailed environment>, (rim lighting, studio lighting, distant moon light, night, bloom), (cinematic, best quality, masterpiece, ultra HD textures, highly detailed, hyper realistic, intricate detail, 8k, photorealistic, concept art, matte painting, autodesk maya, vray render, ray tracing, hdr), (dslr, full frame, 16mm focal length, f/8 aperture, dynamic perspective, dynamic angle, golden ratio, wide photography, wide field of view, deep depth of field, zoom out) <lora:epiNoiseoffset:0.3>  <lora:urbanSamuraiClothing:0.25> techwear, urbansamurai <lora:3dCGStyleRealistic:0.2> <lora:hipoly3DModelLora:0.2>3d, realistic <lora:cyberhelmetWearable:0.45> cyborg in a cyberhelmet head <hypernet:dr0ne:0.15> <hypernet:sxzBloom_sxzBloom:0.2>  <hypernet:LuisapSciFiHard:0.1>",
+                "sampler": "DPM++ 2S a Karras",
+                "cfgScale": 7.5,
+                "'Overlap'": "48",
+                "Clip skip": "2",
+                "resources": [
+                    {
+                        "name": "epiNoiseoffset",
+                        "type": "lora",
+                        "weight": 0.3
+                    },
+                    {
+                        "name": "urbanSamuraiClothing",
+                        "type": "lora",
+                        "weight": 0.25
+                    },
+                    {
+                        "name": "3dCGStyleRealistic",
+                        "type": "lora",
+                        "weight": 0.2
+                    },
+                    {
+                        "name": "hipoly3DModelLora",
+                        "type": "lora",
+                        "weight": 0.2
+                    },
+                    {
+                        "name": "cyberhelmetWearable",
+                        "type": "lora",
+                        "weight": 0.45
+                    },
+                    {
+                        "name": "dr0ne",
+                        "type": "hypernet",
+                        "weight": 0.15
+                    },
+                    {
+                        "name": "sxzBloom_sxzBloom",
+                        "type": "hypernet",
+                        "weight": 0.2
+                    },
+                    {
+                        "name": "LuisapSciFiHard",
+                        "type": "hypernet",
+                        "weight": 0.1
+                    },
+                    {
+                        "hash": "c0d1994c73",
+                        "name": "realisticVisionV20_v20",
+                        "type": "model"
+                    }
+                ],
+                "\"{'Method'": "'MultiDiffusion'",
+                "'Upscaler'": "'4x-UltraSharp'",
+                "Model hash": "c0d1994c73",
+                "'Scale factor'": "2",
+                "negativePrompt": "(worst quality:2), (low quality:2), (normal quality:2), (lowres:2), bad anatomy, fat, ugly, cartoon, comic, sketch, anime, monochrome, logo, signature, watermark, deformed, mutation, text, ng_deepnegative_v1_75t, render by bad-artist, bad-hands-5, bad_prompt_version2, EasyNegative, advntr, cheerful, happy, snow, close up, portrait, zoom in, crop in, shallow depth of field, medium depth of field, subject in center, subject close to camera, imperfect circle, imperfect bolts, imperfect screws, open helmet, half helmet, large moon, 3d, realistic, mask,  image by bad-artist-anime, bad design, low detail, low texture quality, repetition, old, rusty, 1k, 2k",
+                "Face restoration": "CodeFormer",
+                "'Keep input size'": "True}\"",
+                "'Tile batch size'": "8",
+                "Denoising strength": "0.35",
+                "'Latent tile width'": "96",
+                "'Latent tile height'": "96",
+                "Tiled Diffusion upscaler": "4x-UltraSharp",
+                "Tiled Diffusion scale factor": "2"
+            },
+            "username": "realitylvn",
+            "baseModel": "SD 1.5"
+        },
+        {
+            "id": 207,
+            "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/5f89e086-c800-43f7-f10d-daf1d4252700/width=512/5f89e086-c800-43f7-f10d-daf1d4252700.jpeg",
+            "hash": "UiRe~Tofpft7tSWVMvWCpJj?ROWBo*axtOay",
+            "width": 512,
+            "height": 512,
+            "nsfwLevel": "None",
+            "nsfw": false,
+            "browsingLevel": 1,
+            "createdAt": "2023-09-22T23:07:05.617Z",
+            "postId": 55298,
+            "stats": {
+                "cryCount": 14,
+                "laughCount": 15,
+                "likeCount": 186,
+                "dislikeCount": 0,
+                "heartCount": 74,
+                "commentCount": 0
+            },
+            "meta": null,
+            "username": "civitai",
+            "baseModel": "SD 1.5"
+        },
+        {
+            "id": 41213072,
+            "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/a489ec73-491e-458d-a90a-4ecdf5c97efe/width=1040/a489ec73-491e-458d-a90a-4ecdf5c97efe.jpeg",
+            "hash": "UJByBY:*I@TJ}[;2WCOYwf$i$hkCD%Xmr=ni",
+            "width": 1040,
+            "height": 720,
+            "nsfwLevel": "Soft",
+            "nsfw": true,
+            "browsingLevel": 2,
+            "createdAt": "2024-11-20T23:48:07.568Z",
+            "postId": 9386392,
+            "stats": {
+                "cryCount": 11,
+                "laughCount": 46,
+                "likeCount": 163,
+                "dislikeCount": 0,
+                "heartCount": 68,
+                "commentCount": 4
+            },
+            "meta": {
+                "prompt": "Woman is smiling, with a mic in her hand, giving a talk, at BUZZx Talk. The camera pans from her left to her right, as she keep speaking to the audience, "
+            },
+            "username": "A1AL",
+            "baseModel": ""
+        },
+        {
+            "id": 40530943,
+            "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/106f63be-409f-4e27-8a0e-fe91e74c47b4/width=832/106f63be-409f-4e27-8a0e-fe91e74c47b4.jpeg",
+            "hash": "UDBD+rDJGd;L;LXnMJbc00-^#OAH1Jn3*0W-",
+            "width": 832,
+            "height": 1216,
+            "nsfwLevel": "None",
+            "nsfw": false,
+            "browsingLevel": 1,
+            "createdAt": "2024-11-18T00:25:00.000Z",
+            "postId": 9234988,
+            "stats": {
+                "cryCount": 10,
+                "laughCount": 20,
+                "likeCount": 192,
+                "dislikeCount": 0,
+                "heartCount": 66,
+                "commentCount": 0
+            },
+            "meta": {
+                "Size": "832x1216",
+                "nsfw": false,
+                "seed": 858172891,
+                "draft": false,
+                "extra": {
+                    "remixOfId": 40249697
+                },
+                "steps": 30,
+                "width": 832,
+                "height": 1216,
+                "prompt": "score_9, score_8_up, score_7_up, score_6_up, 1girl, bare shoulders, solo, looking at viewer, glowing eyes, open mouth, long hair flowing hair, flying hair, rainbow colored hair, neon hair, glowing hair, upper body, from below, crouched, shouldered weapon, sword, rainbow sword, back lighting, dark, multicolored background, blurred background, bright, multicolored, bright colors of paint, masterpiece, best quality, amazing quality, very aesthetic, lots of multicolored rainbow light, focus on the face, lots of soft light, soft colors",
+                "sampler": "Euler a",
+                "cfgScale": 5,
+                "clipSkip": 2,
+                "quantity": 2,
+                "workflow": "txt2img",
+                "baseModel": "SDXL",
+                "resources": [],
+                "Created Date": "2024-11-17T0052:52.2494411Z",
+                "negativePrompt": "worst quality, low quality, displeasing, text, watermark, bad anatomy,",
+                "civitaiResources": [
+                    {
+                        "type": "checkpoint",
+                        "modelVersionId": 1046043,
+                        "modelVersionName": "V-Pred-0.5-Version"
+                    },
+                    {
+                        "type": "lora",
+                        "weight": 0.9,
+                        "modelVersionId": 1036362,
+                        "modelVersionName": "v4_noobEv1.0"
+                    },
+                    {
+                        "type": "embed",
+                        "modelVersionId": 106916,
+                        "modelVersionName": "v1.0"
+                    }
+                ]
+            },
+            "username": "shlk49",
+            "baseModel": "SDXL 1.0"
+        },
+        {
+            "id": 40036588,
+            "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/76901f8d-e0aa-40cf-9f02-9f994bcc418f/width=696/76901f8d-e0aa-40cf-9f02-9f994bcc418f.jpeg",
+            "hash": "UFF~sgn4-.ni*I-m_1s9IY~UxC$zt6XSs+?F",
+            "width": 696,
+            "height": 1024,
+            "nsfwLevel": "None",
+            "nsfw": false,
+            "browsingLevel": 1,
+            "createdAt": "2024-11-14T07:24:09.210Z",
+            "postId": 9126574,
+            "stats": {
+                "cryCount": 14,
+                "laughCount": 29,
+                "likeCount": 200,
+                "dislikeCount": 0,
+                "heartCount": 45,
+                "commentCount": 0
+            },
+            "meta": null,
+            "username": "Steel_Lynx",
+            "baseModel": ""
+        },
+        {
+            "id": 39873166,
+            "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/19aead05-958e-4ee8-bc0d-a10bd88b1ed0/width=720/19aead05-958e-4ee8-bc0d-a10bd88b1ed0.jpeg",
+            "hash": "UEFODg~VI9n4#QNGxa$%R4Rj%N%L0gM|R*R,",
+            "width": 720,
+            "height": 1040,
+            "nsfwLevel": "None",
+            "nsfw": false,
+            "browsingLevel": 1,
+            "createdAt": "2024-11-13T08:10:57.030Z",
+            "postId": 9090572,
+            "stats": {
+                "cryCount": 6,
+                "laughCount": 16,
+                "likeCount": 168,
+                "dislikeCount": 0,
+                "heartCount": 98,
+                "commentCount": 5
+            },
+            "meta": null,
+            "username": "JustAMouse",
+            "baseModel": ""
+        },
+        {
+            "id": 39563863,
+            "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/314bc4ad-ebe6-45f3-95e4-01a4cbe37bc8/width=832/314bc4ad-ebe6-45f3-95e4-01a4cbe37bc8.jpeg",
+            "hash": "UGBW_5RPD%%f?^M{Dixu?uaeIUt7yEaeR5t7",
+            "width": 832,
+            "height": 1216,
+            "nsfwLevel": "Soft",
+            "nsfw": true,
+            "browsingLevel": 2,
+            "createdAt": "2024-11-11T15:03:10.691Z",
+            "postId": 9022967,
+            "stats": {
+                "cryCount": 10,
+                "laughCount": 0,
+                "likeCount": 206,
+                "dislikeCount": 0,
+                "heartCount": 72,
+                "commentCount": 0
+            },
+            "meta": {
+                "Size": "832x1216",
+                "seed": 2103277002,
+                "extra": {
+                    "remixOfId": 39558287
+                },
+                "steps": 30,
+                "prompt": "in the style of cksc, a cyberpunk female warrior, platinum hair, alluring teal dress with clothing cutouts, cleavage, holding an assault rifle, direct gaze, cyberpunk alley",
+                "sampler": "Undefined",
+                "cfgScale": 3.5,
+                "clipSkip": 2,
+                "resources": [],
+                "Created Date": "2024-11-11T1500:14.6466421Z",
+                "civitaiResources": [
+                    {
+                        "type": "checkpoint",
+                        "modelVersionId": 691639,
+                        "modelVersionName": "Dev"
+                    },
+                    {
+                        "type": "lora",
+                        "weight": 0.85,
+                        "modelVersionId": 1050932,
+                        "modelVersionName": "v1.0"
+                    }
+                ]
+            },
+            "username": "Stu42",
+            "baseModel": "Flux.1 D"
+        },
+        {
+            "id": 38620300,
+            "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/9e096dec-38ae-41de-992b-7d21165beb77/width=832/9e096dec-38ae-41de-992b-7d21165beb77.jpeg",
+            "hash": "UqKHOgs:n5ae}soeixWBOqa|aejt#maySgbb",
+            "width": 832,
+            "height": 1216,
+            "nsfwLevel": "None",
+            "nsfw": false,
+            "browsingLevel": 1,
+            "createdAt": "2024-11-06T06:28:58.605Z",
+            "postId": 8815494,
+            "stats": {
+                "cryCount": 10,
+                "laughCount": 20,
+                "likeCount": 202,
+                "dislikeCount": 0,
+                "heartCount": 56,
+                "commentCount": 1
+            },
+            "meta": {
+                "Size": "832x1216",
+                "seed": 3441162953,
+                "extra": {
+                    "remixOfId": 38619549
+                },
+                "steps": 30,
+                "prompt": "first came the dripping crimson\nabove is a white striped hexagon and silhouettes of an asian dragon\nabove again the shadow crowd watches the forefront\nand above the victor stands majestic",
+                "sampler": "Undefined",
+                "cfgScale": 3.5,
+                "clipSkip": 2,
+                "resources": [],
+                "Created Date": "2024-11-06T0627:20.4217861Z",
+                "civitaiResources": [
+                    {
+                        "type": "checkpoint",
+                        "modelVersionId": 691639,
+                        "modelVersionName": "Dev"
+                    }
+                ]
+            },
+            "username": "ditters",
+            "baseModel": "Flux.1 D"
+        },
+        {
+            "id": 38470091,
+            "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/90b6b931-a5eb-4fb1-b061-145688ad1249/width=1456/90b6b931-a5eb-4fb1-b061-145688ad1249.jpeg",
+            "hash": "U7Bp;I0J4--q}7JXD*%28wDj$*E3yEo|x]IU",
+            "width": 1456,
+            "height": 2128,
+            "nsfwLevel": "None",
+            "nsfw": false,
+            "browsingLevel": 1,
+            "createdAt": "2024-11-05T19:00:00.000Z",
+            "postId": 8781403,
+            "stats": {
+                "cryCount": 9,
+                "laughCount": 13,
+                "likeCount": 189,
+                "dislikeCount": 0,
+                "heartCount": 77,
+                "commentCount": 0
+            },
+            "meta": {
+                "RNG": "NV",
+                "Size": "832x1216",
+                "seed": 3867084937,
+                "Model": "PSanctuary_v2.5",
+                "steps": 16,
+                "hashes": {
+                    "model": "eb131815a2",
+                    "lora:Rosalina_illusXL_Incrs_v1": "e1cda70693a2"
+                },
+                "prompt": "masterpiece, best quality, 1girl, solo, RslnBiker, hair over one eye, biker clothes, bikesuit, crown, bodysuit, gloves, <lora:Rosalina_illusXL_Incrs_v1:1>, outdoors, motorcycle, motor vehicle, ground vehicle, on vehicle, street, night, driving, sitting, motion lines, motion blur, drifting, foreshortening, floating hair, holding, from below, wheel focus,",
+                "Version": "f2.0.1v1.10.1-previous-584-g9a698e26",
+                "sampler": "Restart",
+                "Module 1": "sdxl_vae",
+                "cfgScale": 6,
+                "resources": [
+                    {
+                        "hash": "e1cda70693a2",
+                        "name": "Rosalina_illusXL_Incrs_v1",
+                        "type": "lora",
+                        "weight": 1
+                    },
+                    {
+                        "hash": "eb131815a2",
+                        "name": "PSanctuary_v2.5",
+                        "type": "model"
+                    }
+                ],
+                "Model hash": "eb131815a2",
+                "Hires steps": "10",
+                "Hires sampler": "Euler a",
+                "Hires upscale": "1.75",
+                "Schedule type": "SGM Uniform",
+                "Hires Module 1": "Use same choices",
+                "Hires upscaler": "2x-AnimeSharpV3",
+                "Variation seed": "2912974436",
+                "negativePrompt": "lowres, worst quality, low quality, bad anatomy, bad proportions, extra limbs, extra digit, extra legs, extra legs and arms, disfigured, missing arms, too many fingers, fused fingers, missing fingers, unclear eyes, username, simple background",
+                "ADetailer model": "face_yolov8n.pt",
+                "Hires CFG Scale": "6",
+                "ADetailer version": "24.9.0",
+                "Denoising strength": "0.5",
+                "ADetailer mask blur": "4",
+                "ADetailer confidence": "0.3",
+                "Diffusion in Low Bits": "Automatic (fp16 LoRA)",
+                "ADetailer dilate erode": "4",
+                "ADetailer inpaint width": "1024",
+                "Variation seed strength": "0.02",
+                "ADetailer inpaint height": "1024",
+                "ADetailer inpaint padding": "64",
+                "ADetailer denoising strength": "0.3",
+                "ADetailer inpaint only masked": "True",
+                "ADetailer use inpaint width height": "True"
+            },
+            "username": "FallenIncursio",
+            "baseModel": "Illustrious"
+        },
+        {
+            "id": 38435696,
+            "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/97bb08ac-5fea-4cbe-a644-507d4d235cc2/width=1024/97bb08ac-5fea-4cbe-a644-507d4d235cc2.jpeg",
+            "hash": "UEGkQ|j[0=of9|a#V_j@9$jZ$~kB~9R+NHoJ",
+            "width": 1024,
+            "height": 1536,
+            "nsfwLevel": "None",
+            "nsfw": false,
+            "browsingLevel": 1,
+            "createdAt": "2024-11-05T05:57:09.554Z",
+            "postId": 8773940,
+            "stats": {
+                "cryCount": 16,
+                "laughCount": 54,
+                "likeCount": 147,
+                "dislikeCount": 0,
+                "heartCount": 71,
+                "commentCount": 0
+            },
+            "meta": {
+                "Size": "1024x1536",
+                "seed": 358882244,
+                "Model": "flux1-dev-fp16",
+                "steps": 10,
+                "hashes": {
+                    "model": "2EDA627C8A",
+                    "schnell_v1.0": "C41F8106C9",
+                    "Movie_Posters": "350CF54A13"
+                },
+                "prompt": "Vintage Movie poster for \"\"Broke Buzz MOUNTAIN\" featuring a close-up of the profiles of two sad-looking cowboys, looking downward in a somber, defeated expression. Their cowboy hats are slightly tilted, casting shadows over their eyes, highlighting a sense of struggle. The background is a faded, desolate mountain range, hinting at their past in the Wild West. The tagline beneath them reads, \"Too broke for the mountains\" in bold, distressed lettering, adding a humorous twist to the melancholic mood. The overall design mimics classic movie posters, blending dramatic visuals with a playful, tongue-in-cheek message. <lora:Movie_Posters:0.8> <lora:schnell_v1.0:1.0><lora:792378070045566530:0>",
+                "sampler": "Euler a",
+                "cfgScale": 3.5,
+                "resources": [
+                    {
+                        "name": "Movie_Posters",
+                        "type": "lora",
+                        "weight": 0.8
+                    },
+                    {
+                        "name": "schnell_v1.0",
+                        "type": "lora",
+                        "weight": 1
+                    },
+                    {
+                        "name": "792378070045566530",
+                        "type": "lora",
+                        "weight": 0
+                    },
+                    {
+                        "hash": "2EDA627C8A",
+                        "name": "flux1-dev-fp16",
+                        "type": "model"
+                    }
+                ],
+                "Model hash": "2EDA627C8A"
+            },
+            "username": "NowhereManGo",
+            "baseModel": "Flux.1 D"
+        },
+        {
+            "id": 37968223,
+            "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/fc248966-b52b-41e2-aba6-9b6f174bf94a/width=1800/fc248966-b52b-41e2-aba6-9b6f174bf94a.jpeg",
+            "hash": "UdH,-H~A~AtQ=dV[%1s.-TNHNbRk-UxZX8Sg",
+            "width": 2688,
+            "height": 1536,
+            "nsfwLevel": "None",
+            "nsfw": false,
+            "browsingLevel": 1,
+            "createdAt": "2024-11-02T19:40:06.835Z",
+            "postId": 8666574,
+            "stats": {
+                "cryCount": 14,
+                "laughCount": 31,
+                "likeCount": 180,
+                "dislikeCount": 0,
+                "heartCount": 63,
+                "commentCount": 2
+            },
+            "meta": null,
+            "username": "gonzalu",
+            "baseModel": ""
+        },
+        {
+            "id": 37879405,
+            "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/3651326b-cc0f-498b-be28-5e1ecee1c265/width=1024/3651326b-cc0f-498b-be28-5e1ecee1c265.jpeg",
+            "hash": "UEGt.,01Os~AIUE2s.E2_2D*?aE2E1%1-:M|",
+            "width": 1024,
+            "height": 1280,
+            "nsfwLevel": "None",
+            "nsfw": false,
+            "browsingLevel": 1,
+            "createdAt": "2024-11-02T06:58:51.834Z",
+            "postId": 8650635,
+            "stats": {
+                "cryCount": 14,
+                "laughCount": 24,
+                "likeCount": 164,
+                "dislikeCount": 0,
+                "heartCount": 86,
+                "commentCount": 0
+            },
+            "meta": null,
+            "username": "Dr34m5c4p3",
+            "baseModel": ""
+        },
+        {
+            "id": 37635603,
+            "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/1e8d790c-1bc0-42c1-bddd-b652736f7ae8/width=832/1e8d790c-1bc0-42c1-bddd-b652736f7ae8.jpeg",
+            "hash": "U55YZ%tRRkV@?^tRjGWC%1tRRjaf.SozR5V@",
+            "width": 832,
+            "height": 1216,
+            "nsfwLevel": "None",
+            "nsfw": false,
+            "browsingLevel": 1,
+            "createdAt": "2024-10-31T23:39:36.913Z",
+            "postId": 8597003,
+            "stats": {
+                "cryCount": 7,
+                "laughCount": 0,
+                "likeCount": 229,
+                "dislikeCount": 0,
+                "heartCount": 52,
+                "commentCount": 5
+            },
+            "meta": {
+                "Size": "832x1216",
+                "seed": 2806146537,
+                "steps": 25,
+                "prompt": "Imagine a colossal insectoid mecha emerging from the ocean under a stormy night sky. With multiple spider-like legs and a complex design, the machine rises through dark waters, casting intricate reflections in the rain-drenched waves. Fog drifts over the scene as lightning cuts through the sky, illuminating the dramatic, dieselpunk-inspired contours of its ominous silhouette. The contrasting colors highlight the menacing presence of this sinister machine, capturing the essence of sci-fi dread and tension against a turbulent, oceanic backdrop.contrast sky,red moon,lightning,total terror, best quality,masterpiece, detailed, UHD, lots of fine detail,award-winning,vibrant,saturated,colorful,realistic reflections,from above,illustration,concept art,cinematic,futuristic,visionary,surreal,grimdark,disturbing,gigerpunk,((close-up)),hdr,Jakub rozalski,Simon St\u00e5lenhag\nPiotr Jab\u0142o\u0144ski\nGreg Rutkowski\nGuillermo del toro\nRidley Scott\n H.R.Giger",
+                "sampler": "Undefined",
+                "cfgScale": 3.5,
+                "clipSkip": 2,
+                "resources": [],
+                "Created Date": "2024-10-31T0400:27.7422296Z",
+                "civitaiResources": [
+                    {
+                        "type": "checkpoint",
+                        "modelVersionId": 691639,
+                        "modelVersionName": "Dev"
+                    },
+                    {
+                        "type": "lora",
+                        "weight": 0.8,
+                        "modelVersionId": 730307,
+                        "modelVersionName": "FLUX DnD_Grainyboyz"
+                    },
+                    {
+                        "type": "lora",
+                        "weight": 0.5,
+                        "modelVersionId": 828027,
+                        "modelVersionName": "v2.0"
+                    },
+                    {
+                        "type": "lora",
+                        "weight": 0.7,
+                        "modelVersionId": 792390,
+                        "modelVersionName": "v1.0"
+                    },
+                    {
+                        "type": "lora",
+                        "weight": 0.65,
+                        "modelVersionId": 857893,
+                        "modelVersionName": "Flux.D_v1"
+                    },
+                    {
+                        "type": "lora",
+                        "weight": 0.7,
+                        "modelVersionId": 785760,
+                        "modelVersionName": "V1"
+                    }
+                ]
+            },
+            "username": "a6bIp",
+            "baseModel": "Flux.1 D"
+        },
+        {
+            "id": 37003514,
+            "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/10b152d4-ab71-425c-83c0-25648be2eaf7/width=768/10b152d4-ab71-425c-83c0-25648be2eaf7.jpeg",
+            "hash": "UC5Pj;WZMyoyloWXa0obIBpHn#V@m7tlk;Rk",
+            "width": 768,
+            "height": 1152,
+            "nsfwLevel": "None",
+            "nsfw": false,
+            "browsingLevel": 1,
+            "createdAt": "2024-10-28T12:00:00.000Z",
+            "postId": 8449955,
+            "stats": {
+                "cryCount": 0,
+                "laughCount": 6,
+                "likeCount": 239,
+                "dislikeCount": 0,
+                "heartCount": 43,
+                "commentCount": 0
+            },
+            "meta": {
+                "seed": 2930124195,
+                "vaes": [
+                    "sdxl_vae.safetensors"
+                ],
+                "comfy": "{\"prompt\": {\"10001\": {\"class_type\": \"ECHOCheckpointLoaderSimple\", \"inputs\": {\"ckpt_name\": \"EMS-510171-EMS.safetensors\"}, \"_properties\": null}, \"10009\": {\"class_type\": \"LoraTagLoader\", \"inputs\": {\"clip\": [\"10001\", 1], \"model\": [\"10001\", 0], \"text\": \"<lora:EMS-552279-EMS.safetensors:0.700000>\"}, \"_properties\": null}, \"10010\": {\"class_type\": \"VAELoader\", \"inputs\": {\"vae_name\": \"sdxl_vae.safetensors\"}, \"_properties\": null}, \"10011\": {\"class_type\": \"CLIPSetLastLayer\", \"inputs\": {\"clip\": [\"10009\", 1], \"stop_at_clip_layer\": -2}, \"_properties\": null}, \"10012\": {\"class_type\": \"EmptyLatentImage\", \"inputs\": {\"batch_size\": 2, \"height\": 1152, \"width\": 768}, \"_properties\": null}, \"10023\": {\"class_type\": \"CLIPTextEncode\", \"inputs\": {\"clip\": [\"10011\", 0], \"text\": \"score_9, score_8_up, score_7_up, source_anime, rating_safe, night, midnight, red theme, natural lighting, fantasy-viking structure focus, DaVIKING, DaVIKING_architecture, starry sky, aurora, scenery, intricately detailed illustration, atmospheric perspective, depth of field, realistic shading\", \"token_normalization\": \"none\", \"weight_interpretation\": \"comfy\"}, \"_properties\": null}, \"10024\": {\"class_type\": \"CLIPTextEncode\", \"inputs\": {\"clip\": [\"10011\", 0], \"text\": \"score_4, score_5, score_6, bad male anatomy, bad female anatomy, poorly drawn face, bad hands, morbid, deformed, disfigured, mutilated, malformed, missing body part, error, malformed hands, legs, bad feet, fused legs, broken legs, bad penis, bad eyes, censored, bad butt, bad body proportions, bad face, bad facial expression, gross proportions, bad abs, disappearing hands, fused hands, fused body part, fused legs, fused digits, missing digit, extra digit, hand with more than 5 digits, hand with less than 5 digits, bad pecs, 3D character, photorealistic, 3D game, 3D, cropped, watermark, username, signature, not in perspective, bad artist, bad background, ugly, jpeg artefacts, squares, faded, worst quality, blurred, yellow background, lowres, low quality, bad quality, not in perspective, plain pose, plain figure\", \"token_normalization\": \"none\", \"weight_interpretation\": \"comfy\"}, \"_properties\": null}, \"11001\": {\"class_type\": \"KSampler\", \"inputs\": {\"cfg\": 7.0, \"denoise\": 1.0, \"ensd\": 31337, \"latent_image\": [\"10012\", 0], \"model\": [\"10009\", 0], \"negative\": [\"10024\", 0], \"positive\": [\"10023\", 0], \"sampler_name\": \"euler_ancestral\", \"scheduler\": \"normal\", \"seed\": 2930124195, \"seed_mode\": \"A1111\", \"steps\": 25}, \"_properties\": null}, \"11016\": {\"class_type\": \"VAEDecode\", \"inputs\": {\"samples\": [\"11001\", 0], \"vae\": [\"10010\", 0]}, \"_properties\": null}, \"12004\": {\"class_type\": \"SaveImage\", \"inputs\": {\"filename_prefix\": \"789568182036806625\", \"images\": [\"11016\", 0]}, \"_properties\": null}}, \"workflow\": undefined}",
+                "steps": 25,
+                "width": 768,
+                "height": 1152,
+                "models": [],
+                "prompt": "score_9, score_8_up, score_7_up, source_anime, rating_safe, night, midnight, red theme, natural lighting, fantasy-viking structure focus, DaVIKING, DaVIKING_architecture, starry sky, aurora, scenery, intricately detailed illustration, atmospheric perspective, depth of field, realistic shading",
+                "denoise": 1,
+                "sampler": "Euler a",
+                "cfgScale": 7,
+                "modelIds": [],
+                "scheduler": "normal",
+                "upscalers": [],
+                "versionIds": [],
+                "controlNets": [],
+                "negativePrompt": "score_4, score_5, score_6, bad male anatomy, bad female anatomy, poorly drawn face, bad hands, morbid, deformed, disfigured, mutilated, malformed, missing body part, error, malformed hands, legs, bad feet, fused legs, broken legs, bad penis, bad eyes, censored, bad butt, bad body proportions, bad face, bad facial expression, gross proportions, bad abs, disappearing hands, fused hands, fused body part, fused legs, fused digits, missing digit, extra digit, hand with more than 5 digits, hand with less than 5 digits, bad pecs, 3D character, photorealistic, 3D game, 3D, cropped, watermark, username, signature, not in perspective, bad artist, bad background, ugly, jpeg artefacts, squares, faded, worst quality, blurred, yellow background, lowres, low quality, bad quality, not in perspective, plain pose, plain figure",
+                "additionalResources": []
+            },
+            "username": "Dadadala",
+            "baseModel": null
+        },
+        {
+            "id": 36469723,
+            "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/d331c36c-c69e-4c2c-ac23-23467fca29c8/width=1216/d331c36c-c69e-4c2c-ac23-23467fca29c8.jpeg",
+            "hash": "ULB2_*5+Ee[;}GABOX=esAWBW;w{OExaWAWB",
+            "width": 1216,
+            "height": 832,
+            "nsfwLevel": "Soft",
+            "nsfw": true,
+            "browsingLevel": 2,
+            "createdAt": "2024-10-25T09:33:18.532Z",
+            "postId": 8330009,
+            "stats": {
+                "cryCount": 14,
+                "laughCount": 14,
+                "likeCount": 202,
+                "dislikeCount": 0,
+                "heartCount": 58,
+                "commentCount": 0
+            },
+            "meta": {
+                "Size": "1216x832",
+                "seed": 2203288547,
+                "steps": 30,
+                "prompt": "A close-up of a dark, brooding female archer, clad in ornate and decaying armor, perched on a gnarled tree branch beneath a massive, blood-red moon. The archer, her face etched with determination, is tensed, ready to release an arrow aimed at a fierce black dragon soaring across the moonlit sky. The scene exudes an ominous, apocalyptic atmosphere, evoking the image of a powerful and solitary warrior facing an ancient, terrifying foe. The dramatic lighting and textures create a cinematic, dark fantasy experience, reminiscent of Zdzis\u0142aw Beksi\u0144ski's surreal landscapes and Frank Frazetta's character design. The high contrast lighting accentuates the dark, shadowy figure against the vibrant red moon, while the predominantly dark color palette of deep blues, blacks, and crimson reds further heightens the atmosphere of foreboding and intense power. The detailed rendering of the archer's armor and character features, along with the textured background and sense of movement in the air, should capture the intensity of the impending battle.",
+                "sampler": "Undefined",
+                "cfgScale": 13,
+                "clipSkip": 2,
+                "resources": [],
+                "Created Date": "2024-10-25T0928:03.2130617Z",
+                "civitaiResources": [
+                    {
+                        "type": "checkpoint",
+                        "modelVersionId": 922358,
+                        "modelVersionName": "Pro 1.1"
+                    }
+                ]
+            },
+            "username": "Ai_Collector",
+            "baseModel": "Flux.1 D"
+        },
+        {
+            "id": 36294436,
+            "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/4b197a04-711b-4656-9647-58173269aaac/width=832/4b197a04-711b-4656-9647-58173269aaac.jpeg",
+            "hash": "UFGbL=X84.-Q.Tsl-oX9%$V?xCfk01rqtRNL",
+            "width": 832,
+            "height": 1216,
+            "nsfwLevel": "None",
+            "nsfw": false,
+            "browsingLevel": 1,
+            "createdAt": "2024-10-24T11:02:47.758Z",
+            "postId": 8291053,
+            "stats": {
+                "cryCount": 3,
+                "laughCount": 8,
+                "likeCount": 224,
+                "dislikeCount": 0,
+                "heartCount": 53,
+                "commentCount": 0
+            },
+            "meta": {
+                "Size": "832x1216",
+                "seed": 3146451915,
+                "steps": 40,
+                "prompt": "({scenic landscape} masterpiece:1.5), (best quality:1.5), ((UHD:1.5)), (ultra detailed background, ultra detailed scenery:1.5), (aesthetic + beautiful + harmonic:1.5), ({symmetrical intricate scenic details + sharpen symmetrical scenic details}:1.5)  ,ink ,greg rutkowski,style",
+                "sampler": "DPM++ 2M Karras",
+                "cfgScale": 5.6,
+                "clipSkip": 2,
+                "resources": [],
+                "Created Date": "2024-10-24T1100:44.0386542Z",
+                "negativePrompt": "BadHands, BadArtist, BadArtistAnime, BadPrompt, BadImages, {(low quality, worst quality:1.5)}, asymetrical outfit, undetailed, clothes, blush, asymmetrical eyes, deformed eyes, undetailed face, cropped, out of frame, jpeg artifacts, ugly, duplicate, morbid, mutilated, blemishes, extra fingers, mutated hands, poorly drawn hands, poorly drawn face, mutation, deformed, blurry, bad anatomy, bad proportions, {extra limbs, cloned face, disfigured, gross proportions, malformed limbs, missing arms, missing legs, extra arms, extra legs, fused fingers, too many fingers, long neck}, {(watermark, text, signature:1.5)}, censored, disfigured, poorly drawn face, mutated, extra limb, ugly, poorly drawn hands, missing limb, floating limbs, disconnected limbs, disconnected head, malformed hands, long neck, mutated hands and fingers, bad hands, missing fingers, cropped, mutation, poorly, ugly, tiling, poorly drawn hands, poorly drawn feet, out of frame, disfigured, deformed, body out of frame, {{NSFW}}",
+                "civitaiResources": [
+                    {
+                        "type": "checkpoint",
+                        "modelVersionId": 128078,
+                        "modelVersionName": "v1.0 VAE fix"
+                    },
+                    {
+                        "type": "lora",
+                        "weight": 0.1,
+                        "modelVersionId": 135867,
+                        "modelVersionName": "v1.0"
+                    },
+                    {
+                        "type": "embed",
+                        "weight": 1,
+                        "modelVersionId": 245812,
+                        "modelVersionName": "_hk1"
+                    },
+                    {
+                        "type": "lora",
+                        "weight": 0.11,
+                        "modelVersionId": 152309,
+                        "modelVersionName": "xl_more_art-full-v1"
+                    },
+                    {
+                        "type": "lora",
+                        "weight": 0.3,
+                        "modelVersionId": 216212,
+                        "modelVersionName": "v3"
+                    },
+                    {
+                        "type": "embed",
+                        "weight": 1,
+                        "modelVersionId": 166373,
+                        "modelVersionName": "General_Neg1 (AC)"
+                    }
+                ]
+            },
+            "username": "PlagueDogAI",
+            "baseModel": "SDXL 1.0"
+        },
+        {
+            "id": 35586111,
+            "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/213df96d-c0c0-4608-8c0a-46f6e4af1259/width=832/213df96d-c0c0-4608-8c0a-46f6e4af1259.jpeg",
+            "hash": "UHF=5F?Gt+9u~BozxtNaR5rrent6V[niSga}",
+            "width": 832,
+            "height": 1216,
+            "nsfwLevel": "None",
+            "nsfw": false,
+            "browsingLevel": 1,
+            "createdAt": "2024-10-20T10:29:36.999Z",
+            "postId": 8130376,
+            "stats": {
+                "cryCount": 21,
+                "laughCount": 27,
+                "likeCount": 191,
+                "dislikeCount": 0,
+                "heartCount": 49,
+                "commentCount": 0
+            },
+            "meta": null,
+            "username": "Lady_Luminous",
+            "baseModel": "SDXL 1.0"
+        },
+        {
+            "id": 35490063,
+            "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/5d069f16-7edb-4771-8866-54bc5940c5fb/width=832/5d069f16-7edb-4771-8866-54bc5940c5fb.jpeg",
+            "hash": "UM9kjav1wGS$mkx^RlbIHXb^T1Vs*0Mda^R+",
+            "width": 832,
+            "height": 1216,
+            "nsfwLevel": "None",
+            "nsfw": false,
+            "browsingLevel": 1,
+            "createdAt": "2024-10-19T22:03:20.720Z",
+            "postId": 8110075,
+            "stats": {
+                "cryCount": 7,
+                "laughCount": 20,
+                "likeCount": 194,
+                "dislikeCount": 0,
+                "heartCount": 67,
+                "commentCount": 4
+            },
+            "meta": {
+                "Size": "832x1216",
+                "seed": 2585230274,
+                "Model": "flux_dev",
+                "steps": 35,
+                "hashes": {
+                    "model": "06f96f89f6",
+                    "lora:FluxTest": "ee30586a0c4f"
+                },
+                "prompt": "mythp0rt, A woman in black pants and a white top wields a glowing blue katana. Her short black hair partially obscures her intense, red-eyed gaze. Sparks and embers fly around her in the dimly lit, blurred background. Anime style, high contrast, and saturated colors.\n<lora:FluxMythV2:0.8>",
+                "Version": "f2.0.1v1.10.1-previous-519-g44eb4ea8",
+                "sampler": "Euler",
+                "Module 1": "ae",
+                "Module 2": "t5xxl_fp16",
+                "Module 3": "ViT-L-14-BEST-smooth-GmP-TE-only-HF-format",
+                "cfgScale": 1,
+                "resources": [
+                    {
+                        "hash": "ee30586a0c4f",
+                        "name": "FluxTest",
+                        "type": "lora",
+                        "weight": 0.8
+                    },
+                    {
+                        "hash": "06f96f89f6",
+                        "name": "flux_dev",
+                        "type": "model"
+                    }
+                ],
+                "Model hash": "06f96f89f6",
+                "Schedule type": "Simple",
+                "Distilled CFG Scale": "3.5",
+                "Diffusion in Low Bits": "Automatic (fp16 LoRA)"
+            },
+            "username": "VelvetS",
+            "baseModel": null
+        },
+        {
+            "id": 35314469,
+            "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/c5fc2e6a-3123-4710-8271-3e794ba088c5/width=1608/c5fc2e6a-3123-4710-8271-3e794ba088c5.jpeg",
+            "hash": "U66@.s?H0101~V%L9Z9GIoWC%1s:4oIV?H?H",
+            "width": 1608,
+            "height": 2408,
+            "nsfwLevel": "None",
+            "nsfw": false,
+            "browsingLevel": 1,
+            "createdAt": "2024-10-18T21:32:01.449Z",
+            "postId": 8070457,
+            "stats": {
+                "cryCount": 4,
+                "laughCount": 27,
+                "likeCount": 212,
+                "dislikeCount": 0,
+                "heartCount": 45,
+                "commentCount": 8
+            },
+            "meta": null,
+            "username": "Castr0",
+            "baseModel": "Flux.1 D"
+        },
+        {
+            "id": 33399202,
+            "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/db21a35d-51ee-48bc-8d49-a4767aa0b305/width=832/db21a35d-51ee-48bc-8d49-a4767aa0b305.jpeg",
+            "hash": "U7BWD30LkCIp~ARjxtRk00?as9%10$ofIpxa",
+            "width": 832,
+            "height": 1216,
+            "nsfwLevel": "None",
+            "nsfw": false,
+            "browsingLevel": 1,
+            "createdAt": "2024-10-08T00:17:11.232Z",
+            "postId": 7640588,
+            "stats": {
+                "cryCount": 8,
+                "laughCount": 11,
+                "likeCount": 207,
+                "dislikeCount": 0,
+                "heartCount": 62,
+                "commentCount": 1
+            },
+            "meta": {
+                "Size": "832x1216",
+                "seed": 3988834700,
+                "steps": 30,
+                "prompt": "8K UHD cinematic summoning, atmospheric light",
+                "sampler": "DPM++ 2M Karras",
+                "cfgScale": 3,
+                "clipSkip": 2,
+                "resources": [],
+                "civitaiResources": [
+                    {
+                        "type": "checkpoint",
+                        "modelVersionId": 329420
+                    }
+                ]
+            },
+            "username": "oneeyed2",
+            "baseModel": "SDXL 1.0"
+        }
+    ],
+    "metadata": {
+        "nextCursor": "16900|1727677502809",
+        "nextPage": "https://civitai.com/api/v1/images?sort=Most%20Reactions&nsfw=Soft&cursor=16900%7C1727677502809"
+    }
+}
